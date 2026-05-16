@@ -108,3 +108,17 @@
 # print(a+b)
 
 # print(int(input("what is x?"))+int(input("what is y?")))
+
+# #
+# a=float(input("enter a:"))
+# b=float(input("enter b:"))
+# c=round(a+b)
+# print(f"{c:,}")
+
+
+#
+a=float(input("enter a:"))
+b=float(input("enter b:"))
+c=(a/b)
+# print(c)
+print(f"{c:.4f}")

@@ -29,3 +29,31 @@
 #     return n*n*n
 # y=int(input("enter no:"))
 # print(cube(y))
+
+
+# def main():
+#     name=input("enter name:")
+#     hello(name)
+    
+
+# def hello(to):
+#     print("hello",to)
+# main()
+
+
+# def main ():
+#     a=int(input("what's a?"))
+#     print(square(a))
+# def square(x):
+#     return x**2
+
+# main()
+
+
+
+def main():
+    name=(input("what's your name:"))
+    print(hello(name))
+def hello(name):
+    return f"hello {name}"
+main()

@@ -195,3 +195,7 @@
 # limit=int(input("enter no:"))
 # for i in range(1,limit+1):
 #     print(n,"*",i,"=",n*i)
+
+
+for i in range (1,5):
+    print(i)
