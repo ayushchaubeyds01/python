@@ -1,0 +1,12 @@
+print("hello to world of one piece \n i am monkey d luffy")
+print("hello to world of one piece \t i am monkey d luffy")
+print("hello to world of one piece \\ i am monkey d luffy")
+print("hello to world of one piece \' i am monkey d luffy")
+print("hello to world of one piece \" i am monkey d luffy")
+print("hello to world of one piece \r i am monkey d luffy")
+print("hello to world of one piece \b i am monkey d luffy")
+print("hello to world of one piece \f i am monkey d luffy")
+print("hello to world of one piece \v i am monkey d luffy")
+print("hello to world of one piece \a i am monkey d luffy")
+print("hello to world of one piece \0 i am monkey d luffy")
+

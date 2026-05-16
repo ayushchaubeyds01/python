@@ -1,0 +1,7 @@
+# print("hello world!")
+# print("i am a boy")
+# print("hello , world")
+# name=str(input("Enter your name:  "))
+# # print(f"my name is {name}")
+# print("hello",end="?/")
+# print(name)
