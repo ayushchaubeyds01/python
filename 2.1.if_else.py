@@ -98,4 +98,11 @@
 
 
 
-
+x=int(input("enter no:"))
+y=int(input("enter no 2"))
+if(x>y):
+    print("x is greater")
+elif(x<y):
+    print("y is greater")
+else:
+    print("x is equal y")
