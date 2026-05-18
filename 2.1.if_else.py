@@ -81,17 +81,21 @@
 #         return False
 # main()
 
-def main():
-    a=int(input("enter no:"))
-    if is_even(a):
-        print("Even")
-    else:
-        print("odd")
-def is_even(n):
-    # return True if n%2==0 else False
-    # if(n%2==0):
-    #     return True
-    # else:
-    #     return False 
-    return n%2==0
-main()
+# def main():
+#     a=int(input("enter no:"))
+#     if is_even(a):
+#         print("Even")
+#     else:
+#         print("odd")
+# def is_even(n):
+#     # return True if n%2==0 else False
+#     # if(n%2==0):
+#     #     return True
+#     # else:
+#     #     return False 
+#     return n%2==0
+# main()
+
+
+
+

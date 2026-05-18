@@ -51,9 +51,42 @@
 
 
 
-def main():
-    name=(input("what's your name:"))
-    print(hello(name))
-def hello(name):
-    return f"hello {name}"
-main()
+# def main():
+#     name=(input("what's your name:"))
+#     print(hello(name))
+# def hello(name):
+#     return f"hello {name}"
+# main()
+
+
+# def hello(to="me"):
+#     print("hello to",to)
+# hello()
+# name=(input("enter name :"))
+# hello(name)
+
+
+# def main():
+#     name=input("enter name:")
+#     hello(name)
+# def hello(to="me"):
+#     print("hello to ",to)
+    
+# main()
+
+
+# def main():
+#     x=int(input("enter a  no:"))
+#     print("square of x is:",square(x))
+    
+# def square(n):
+#     return n*n
+# main()
+
+# def main():
+#     x=int(input("enter no 1:"))
+#     y=int(input("enter no 2:"))
+#     print(add(x,y))
+# def add(a,b):
+#     return(a+b)
+# main()
