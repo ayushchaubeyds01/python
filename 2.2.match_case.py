@@ -18,3 +18,20 @@
 #         print("mitra")
 #     case _:
 #         print("not in case")
+
+
+
+
+# n=(input("enter name:"))
+
+# match(n):
+#     case "ayush":
+#         print("mahupi")
+#     case "anku":
+#         print("daltongunj")
+#     case "ankit":
+#         print("ghataua kalan")
+#     case _:
+#         print("bachendri pal")
+
+

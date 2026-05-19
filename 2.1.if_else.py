@@ -93,16 +93,43 @@
 #     #     return True
 #     # else:
 #     #     return False 
-#     return n%2==0
+#     
 # main()
 
 
 
-x=int(input("enter no:"))
-y=int(input("enter no 2"))
-if(x>y):
-    print("x is greater")
-elif(x<y):
-    print("y is greater")
-else:
-    print("x is equal y")
+# x=int(input("enter no:"))
+# y=int(input("enter no 2"))
+# if(x>y):
+#     print("x is greater")
+# elif(x<y):
+#     print("y is greater")
+# else:
+#     print("x is equal y")
+
+
+# def main():
+#     x=int(input("enter x:"))
+#     if is_even(x):
+#         print("even")
+#     else:
+#         print("odd")
+# def is_even(n):
+#     if(n%2==0):
+#         return True
+#     else:
+#         return False
+# main() 
+
+
+#in pythonic way 
+def main():
+    x=int(input("enter x:"))
+    if is_even(x):
+        print("even")
+    else:
+        print("odd")
+def is_even(n):
+    return True if n%2==0 else False 
+  
+main() 
