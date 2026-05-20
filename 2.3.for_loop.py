@@ -197,5 +197,41 @@
 #     print(n,"*",i,"=",n*i)
 
 
-for i in range (1,5):
-    print(i)
+# for i in range (1,5):
+#     print(i)
+
+
+
+
+# for i in[0,1,2]:
+#     print("meow")
+
+
+# for _ in range (3):
+#     print("meow")
+
+
+
+
+# def main():
+#     x=int(input("enter x:"))
+#     meow(x)
+# def meow (n):
+#     for _ in range(n):
+#         print("meow")
+# main()
+
+
+
+def main():
+    number=get_number()
+    meow(number)
+def get_number():
+    while True:
+        x=int(input("enter x:"))
+        if x>0:
+            return x
+def meow(n):
+    for _ in range(n):
+        print("meow")
+main()

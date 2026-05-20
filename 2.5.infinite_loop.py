@@ -10,3 +10,9 @@
 # for _ in range (1,n+1):
 #     print("mew")
 
+while True:
+    n=int(input("enter n:"))
+    if n>0:
+        break
+for _ in range(n):
+    print("meow")
