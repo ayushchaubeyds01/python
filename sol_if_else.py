@@ -608,3 +608,116 @@
 
 
 
+# print("Ayush kumar chaubey")
+# name=input("enter name:")
+# print(name)
+
+# a=1;b=2
+# print(a+b)
+# print(a*b)
+
+
+# a=3;b=4;c=5
+# print(a+b+c)/3
+
+# a=5
+# b=3
+# c=a
+# a=b
+# b=c
+# print(a)
+# print(b)
+
+
+# a=4
+# b=2
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a)
+# print(b)
+
+
+# c=int(input("enter c:"))
+# f=((9/5)*c)+32
+# print(f)
+
+
+# f=float(input("enter f:"))
+# c=(f-32)*(5/9)
+# print(c)
+
+
+# km=float(input("enter km:"))
+# m=km*1000
+# print(m)
+
+
+# min=int(input("enter no of minutes:"))
+# hr=min*60
+# print(hr)
+
+
+# length=float(input('enter length:'))
+# breadth=float(input('enter breadth:'))
+# print(length*breadth)
+
+
+# import math
+# r=float(input("enter radius:"))
+# print(3.14*r*r)
+
+
+# p=int(input("enter p:"))
+# r=int(input("enter r:"))
+# t=int(input("enter t:"))
+# si=(p*r*t)/100
+# print(si)
+
+
+# p=int(input("enter p:"))
+# r=int(input("enter r:"))
+# n=int(input("enter n:"))
+# a=p*((1+(r/100))**(n))
+# ci=a-p
+# print(ci)
+
+
+
+# num=int(input("enter no:"))
+# print(num**2)
+# print(num**3)
+
+
+# char=input("enter a char:")
+# print(ord(char))
+
+
+# a=45
+# b=a%10
+# print(b)
+
+
+# p=45
+# m=67
+# b=67
+# c=59
+# e=78
+# print(p+c+b+m+e)/5
+
+
+# days=int(input("enter no of days:"))
+# year=days/365
+# month=days/30
+# print(month)
+# print(year)
+
+# a=45
+# b=a//10
+# print(b)
+
+# unit_per_day=float(input("Enter amount of unit"))
+# no_of_day_to_be_counted=int(input("Enter no of days:"))
+# print("bill=",unit_per_day*no_of_day_to_be_counted)
+
+

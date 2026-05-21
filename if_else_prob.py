@@ -16,6 +16,8 @@ Goal:
 syntax comfort
 understanding data flow
 basic calculations
+
+
 Questions
 Print your name.
 Take user input and print it.
@@ -42,13 +44,19 @@ Find first digit of number.
 Convert days into years/months/days.
 Calculate electricity bill basic version.
 Calculate percentage of 5 subjects.
-2. Conditions (40 Questions)
 
-Goal:
 
+
+
+2. Conditionals (40 Questions)
+
+Goal
 decision-making logic
 branching
 analytical thinking
+
+
+
 Questions
 Even or odd.
 Positive, negative, zero.
@@ -98,6 +106,9 @@ raw logic development
 thinking step-by-step
 mastery over iteration
 Basic
+
+
+
 Print 1–100.
 Print 100–1.
 Print even numbers.
@@ -129,7 +140,13 @@ GCD using Euclidean algorithm.
 Find nth prime.
 Sieve of Eratosthenes basic.
 Co-prime check.
+
+
+
+
 Loop Logic Problems
+
+
 Sum of even digits.
 Product of odd digits.
 Largest digit.
@@ -162,6 +179,9 @@ Number pyramids.
 Hollow patterns.
 Diamond patterns.
 Butterfly patterns.
+
+
+
 4. Patterns (40 Questions)
 
 Goal:
@@ -208,6 +228,10 @@ Number hourglass
 Pascal variation
 Triangular multiplication
 Complex custom mixed pattern
+
+
+
+
 5. Strings (50 Questions)
 
 Goal:
@@ -265,6 +289,11 @@ URL parser basic
 Roman numeral converter
 Balanced parentheses
 Expression validator
+
+
+
+
+
 6. Lists (50 Questions)
 
 Goal:
@@ -320,6 +349,13 @@ Majority element
 Stock buy/sell
 Rain water trapping basic
 Merge intervals basic
+
+
+
+
+
+
+
 7. Functions + Recursion (30 Questions)
 Simple calculator functions
 Prime function
@@ -351,7 +387,13 @@ Backtracking maze basic
 N-Queens basic
 Sudoku validator
 Mini recursive parser
+
+
+
+
 8. Projects (MOST IMPORTANT)
+
+
 
 These combine everything.
 
@@ -410,6 +452,10 @@ Example:
 
 (('a',1),('b',2))
 → {'a':1,'b':2}
+
+
+
+
 Set Practice Questions (35)
 
 Goal:
@@ -418,6 +464,9 @@ uniqueness logic
 mathematical operations
 fast lookup thinking
 Basic Set Questions
+
+
+
 Create set with integers.
 Add element to set.
 Remove element.
@@ -455,6 +504,10 @@ Find duplicate words in paragraph.
 Check pangram using set.
 Sudoku row validator basic.
 Unique permutations logic.
+
+
+
+
 Dictionary Practice Questions (50)
 
 Goal:
@@ -463,6 +516,9 @@ key-value thinking
 data organization
 interview-level logic
 Basic Dictionary Questions
+
+
+
 Create dictionary.
 Access values using keys.
 Add new key-value pair.
