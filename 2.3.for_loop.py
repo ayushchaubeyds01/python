@@ -223,15 +223,17 @@
 
 
 
-def main():
-    number=get_number()
-    meow(number)
-def get_number():
-    while True:
-        x=int(input("enter x:"))
-        if x>0:
-            return x
-def meow(n):
-    for _ in range(n):
-        print("meow")
-main()
+# def main():
+#     number=get_number()
+#     meow(number)
+# def get_number():
+#     while True:
+#         x=int(input("enter x:"))
+#         if x>0:
+#             return x
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
+# main()
+
+
