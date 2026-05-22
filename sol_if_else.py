@@ -1038,3 +1038,69 @@
 #     print("not eligible")
 
 
+# num=float("enter no:")
+# if(num==abs(num)):
+#     print("it is absolute number")
+# else:
+#     print("not a absolute no")
+
+
+
+# n=int(input("enter no:"))
+# m=int(input("enter no:"))
+# if(n%m==0):
+#     print("n is multiple of all entered m")
+# else:
+#     print("not a multiple")
+
+
+# print("1.+ ,2.-,3.*,4./")
+# choice=input("enter oprator")
+# a=int(input("enter no1:"))
+# b=int(input("enter no2:"))
+# if(choice == "+"):
+#     print(a+b)
+# elif(choice == "-"):
+#     print(a-b)
+# elif(choice == "*"):
+#     print(a*b)
+# elif(choice == "/"):
+#     print(a/b)
+# else:
+#     print("invalid oprator")4
+
+
+# month=input("enter month:")
+# if  month=="january" and month=="feb" and month=="march":
+#     print("winter")
+# elif(month=="april"and month=="may" and month=="june"):
+#     print("summer")
+# elif(month=="july"and month=="aug" and month=="sep"):
+#     print("monsoon")
+# elif(month=="oct"and month=="nov" and month=="dec"):
+#     print("winter")
+# else:
+#     print("invalid input")
+    
+    
+    
+# n=int(input("enter no of  day:"))
+# if(n==1):
+#     print("sunday")
+# elif(n==2):
+#     print("monday")
+# elif(n==2):
+#     print("tue")
+# elif(n==2):
+#     print("wed")
+# elif(n==2):
+#     print("thru")
+# elif(n==2):
+#     print("fri")
+# elif(n==2):
+#     print("sat")
+# else:
+#     print("invalid input")
+
+
+
