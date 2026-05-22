@@ -98,6 +98,10 @@ Check perfect square.
 Check number in range.
 Check if year is century year.
 Rock-paper-scissors winner logic.
+
+
+
+
 3. Loops (60 Questions)
 
 Goal:
@@ -168,7 +172,15 @@ Alternating sum series.
 Exponential series.
 Find nth Fibonacci.
 Pascal triangle row sum.
+
+
+
+
+
 Nested Loops
+
+
+
 Multiplication grid.
 Coordinate printing.
 Pair combinations.
@@ -188,6 +200,9 @@ Goal:
 
 strongest beginner logic builder
 Questions
+
+
+
 Left triangle stars
 Right triangle stars
 Inverted triangle

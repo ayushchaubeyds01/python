@@ -721,3 +721,320 @@
 # print("bill=",unit_per_day*no_of_day_to_be_counted)
 
 
+
+
+
+# num=int(input("enter no:"))
+# if num%2==0:
+#     print("Even")
+# else:
+#     print("odd")
+    
+    
+    
+    
+    
+    
+    
+    
+# num=int(input("enter no:"))
+# if num<0 :
+#     print("positive")
+# elif(num==0):
+#     print("is zero")
+# else:
+#     print("negative")
+
+
+
+
+
+
+# num1=int(input("enter no:"))
+# num2=int(input("enter no:"))
+# if num1>num2:
+#     print("num1 is greater")
+# else:
+#     print("num2 is greater")
+
+
+
+
+
+
+# num1=int(input("enter no:"))
+# num2=int(input("enter no:"))
+# num3=int(input("enter no:"))
+# if num1>num2 and num1>num3:
+#     print("num1 is greater")
+# elif(num2>num1 and num2>num3):
+#     print("num2 is greater")
+# else:
+#     print("num3 is greater")
+
+
+
+
+
+
+
+
+# num1=int(input("enter no:"))
+# num2=int(input("enter no:"))
+# num3=int(input("enter no:"))
+# if num1<num2 and num1<num3:
+#     print("num1 is smaller")
+# elif(num2<num1 and num2<num3):
+#     print("num2 is smaller")
+# else:
+#     print("num3 is smaller")
+
+
+
+
+
+
+# num=int(input("enter no:"))
+# if num%5==0:
+#     print("number is divisible by 5")
+# else:
+#     print("not divisible")
+
+
+
+
+
+
+
+# num=int(input("enter no:"))
+# if num%5==0 and num%11==0:
+#     print("number is divisible by 5 and 11 both")
+# else:
+#     print("not divisible")
+
+
+
+
+
+
+
+# num=int(input("enter no:"))
+# if num%3==0 and num%7==0:
+#     print("number is divisible by 3 and 7 both")
+# else:
+#     print("not divisible")
+
+
+
+
+
+
+
+# year=int(input("enter year to be checked:"))
+# if year %4==0:
+#     print("year is leap year")
+# else:
+#     print("not a leap year")
+    
+
+
+
+
+
+
+
+# vowel='a','e','i','o','u'
+# char=input("enter char to be checked")
+# if char in vowel:
+#     print("char is a vowel")
+# else:
+#     print("char is consonent")
+
+
+
+
+
+
+
+
+# char=(input("enter char:"))
+# if 48< ord(char)<=57:
+#     print("it is a digit")
+# elif(65<ord(char)<=90 or 97<ord(char)<=122):
+#     print("it is alphabet")
+# elif(33<ord(char)<=64):
+#     print("it is special charecter")
+# else:
+#     print("invalid input")
+
+
+
+
+
+
+
+# char=(input("enter char:"))
+# if (65<ord(char)<=90):
+#     print("it is uppercase")
+# elif(97<ord(char)<=122):
+#     print("it is a lowercase")
+# else:
+#     print("invalid input")
+
+
+
+
+
+
+# marks=int(input("enter marks:"))
+# if marks>=90:
+#     print("A")
+# elif marks>=90:
+#     print("B")
+# elif marks>=90:
+#     print("C")
+# elif marks>=90:
+#     print("D")
+# elif marks>=90:
+#     print("F")
+# else:
+#     print("invalid marks")
+
+
+
+
+
+
+
+# price=5000
+# if price<4000 :
+#     print("profit")
+# else:
+#     print("loss")
+
+
+
+
+
+
+
+# side1=int(input("enter side1:"))
+# side2=int(input("enter side2:"))
+# side3=int(input("enter side3:"))
+# if(side1+side2>side3):
+#     print("it is a triangle")
+# else:
+#     print("it is not")
+    
+
+
+
+
+
+
+
+# # side1=int(input("enter side1:"))
+# # side2=int(input("enter side2:"))
+# # side3=int(input("enter side3:"))
+# if (side1==side2==side3):
+#     print("it is equilateral triangle")
+# elif(side1==side2!=side3):
+#     print("it is isoscales triangle")
+# else:
+#     print("it is scalane triangle")
+
+
+
+
+
+
+
+# b=int(input("enter b:"))
+# a=int(input("enter a:"))
+# c=int(input("enter c:"))
+# d=(b**2)-4*a*c
+# if(d>0):
+#     print("roots are real and diffrent")
+# elif(d==0):
+#     print("roots are real and unique ")
+# elif(d<0):
+#     print("imaginary roots")
+
+
+
+
+
+# age=int(input("enter age:"))
+# if(age>=18):
+#     print("you are eligible to vote")
+# else:
+#     print("you are not eligible")
+
+
+
+
+
+
+#suppose consumer consumes 250 units in a month
+# slab_unit=int(input("enter slab unit:"))
+# if(0<slab_unit<=100):
+#     print("per unit rate=4.50",",","cost=",slab_unit*4.50)
+# elif(100<slab_unit<=200):
+#     print("per unit rate=6.00",",","cost=",slab_unit*6.00)
+# elif(200<slab_unit<=250):
+#     print("per unit rate=7.50",",","cost=",slab_unit*7.50)
+# else:
+#     print("invalid entry")
+
+
+
+
+
+#suppose you go to atm  and bank balance is 1 lakh
+# balance=100000
+# print("insert the card")
+# pin=int(input("enter pin:"))
+# print("select withdrawl")
+# withdrawl_amount=int(input("enter withdrawl amount:"))
+# if(withdrawl_amount<=100000):
+#     print("withdraw money")
+# else:
+#     print("insufficient balance")
+
+
+
+
+# password=191984
+# enter_pass=int(input("enter pin:"))
+# print(enter_pass)
+# if(enter_pass==password):
+#     print("password unlocked")
+# else:
+#     print("password is wrong")
+
+
+
+
+# salary=int(input("enter salary:"))
+# if(salary<=10000):
+#     print("bonus=1500")
+# elif(10000<salary<=50000):
+#     print("bonus=5000")
+# elif(50000<salary<=100000):
+#     print("bonus=10000")
+# elif(100000<salary<=500000):
+#     print("bonus=50000")
+# else:
+#     print("1 piece of cup")
+    
+    
+    
+
+ 
+# age=int(input("enter age:"))
+# if(18<age<=65):
+#     print("eligible for insurance")
+# else:
+#     print("not eligible")
+
+
