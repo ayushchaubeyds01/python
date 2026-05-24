@@ -1104,3 +1104,274 @@
 
 
 
+# product=input("enter product")
+# if(product =="gold"):
+#     print("shipping charge=1000")
+# else:
+#     print("shipping charge= 500")
+
+
+
+
+
+# product=input("enter product:")
+# product_price=input("enter product:")
+
+# if(product_price<=1000):
+#     print("discount= 15%")
+# if(1000<product_price<=10000):
+#     print("discount= 25%")
+# if(10000<product_price<=20000):
+#     print("discount= 30%")
+# if(20000<product_price<=50000):
+#     print("discount= 45%")
+# else:
+#     print("discount= 5%")
+
+
+
+
+# salary=int(input("enter salary:"))
+# if salary<=800000:
+#     print("no income tax")
+# elif(800000<salary<=2000000):
+#     print("12% income tax")
+# elif(2000000<salary<=4000000):
+#     print("20% income tax")
+# elif(4000000<salary<=10000000):
+#     print("25% income tax")
+# else:
+#     print("invalid input")
+
+
+
+# num=int(input("enter number:"))
+# b=str(num)
+# c=b[::-1]
+# if c==b:
+#     print("it is palindrome")
+# else:
+#     print("not a palindrome")
+
+
+
+# import math
+# num=int(input("enter number"))
+# b=math.isqrt(num)
+# if(num==b**2):
+#     print("it is perfect square")
+# else:
+#     print("it is not")
+
+
+
+#suppose range is of 10 to 20
+# num=int(input("enter number"))
+# if(10<num<=20):
+#     print("number is in range of 10  to 20")
+# else:
+#     print("not in range")
+
+
+
+
+# year=int(input("enter year:"))
+# if(year%100==0):
+#     print("it is a century year")
+# else:
+#     print("it is not")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#loops
+
+
+
+
+# for i in range (1,101):
+#     print(i)
+
+# for i in range (100,1,-1):
+#     print(i)
+
+
+# for i in range (100):
+#     if i%2==0:
+#         print(i)
+
+
+# for i in range(100):
+#     if i%2!=0:
+#         print(i)
+
+
+
+
+#sum of 1st n numbers
+# n=int(input("enter no:"))
+# sum=0
+# for i in range(n+1):
+#     sum+=i
+# print(sum)
+
+
+
+# #product of 1st n numbers
+# n=int(input("enter n:"))
+# product=1
+# for i in range(1,n+1):
+#     product=product*i
+# print(product)
+
+
+
+# #multiplication table
+# limit=int(input("enter limit:"))
+# n=int(input("enter limit:"))
+# for i in  range(1,limit+1):
+#     print(i*n)
+
+
+
+# n=int(input("enter n:"))
+# factorial=1
+# for i in range(1,n+1):
+#     factorial=factorial*i
+# print(factorial)
+
+
+
+
+# n=int(input("enter n:"))
+# p=int(input("enter raised power:"))
+# for i in range (1,n+1):
+#     power=pow(n,p)
+# print(power)
+
+
+
+# #fibbonaci series
+# n=int(input("enter n:"))
+# a=0
+# b=1
+# for i in range(1,n+1):
+#     print(a)
+#     a,b=b,a+b
+
+
+
+
+# #count digits
+# n=int(input("enter n:"))
+# b=str(n)
+# count=0
+# for i in range(1,len(b)+1):
+#     digit=n//10
+#     count+=1
+# print(count)
+
+
+
+
+# #sum of digit
+# n=int(input("enter n:"))
+# sum=0
+# for i in range (1,n+1):
+#     digit=n% 10               #% is used to get last digit       
+#     sum+=digit
+#     n=n//10                   // is used to remove the last digit
+# print(sum)
+
+
+
+
+
+
+
+
+# #reverse a no
+# n=int(input("enter n:"))
+# rev=0
+# b=str(n)
+# for i in range (1,len(b)+1) :
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
+
+
+
+# #palindrome no
+# n=int(input("enter n:"))
+# b=len(str(n))
+# org=n
+# rev=0
+# for i in range (1,(b)+1):
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+# if (org==rev):
+#     print("it is a palindrome")
+# else:
+#     print("it is not a palindrome")
+
+
+
+
+
+# #armstrong number
+# n=int(input("Enter n:"))
+# b=len(str(n))
+# org=n
+# sum=0
+# for i in range(1,b+1):
+#     digit=n%10
+#     sum+=digit**b
+#     n//=10
+# print(sum)
+# if(sum==org):
+#     print("it is armstrong number")
+# else:
+#     print("it is not armstrong number")
+
+
+
+

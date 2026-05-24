@@ -92,12 +92,10 @@ BMI calculator.
 Shipping charge calculator.
 Online discount system.
 Income tax calculator.
-Check palindrome number.
-Check Armstrong number.
 Check perfect square.
 Check number in range.
 Check if year is century year.
-Rock-paper-scissors winner logic.
+
 
 
 
@@ -144,7 +142,7 @@ GCD using Euclidean algorithm.
 Find nth prime.
 Sieve of Eratosthenes basic.
 Co-prime check.
-
+Rock-paper-scissors winner logic
 
 
 
