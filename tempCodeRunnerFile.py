@@ -1,11 +1,13 @@
-#palindrome no
-n=int(input("enter n:"))
-b=str(n)
-rev=0
-for i in range (1,len(b)+1):
-    rev=rev*10+n%10
-    n//=10
-if (rev==n):
-    print("it is a palindrome")
-else:
-    print("it is not a palindrome")
+num=int(input("enter number:"))
+# if num<=1:
+#     print("not prime")
+# else:
+    
+#     for i in range(2,int(num**0.5)+1):
+#         if num%i==0:
+#             print("it is not prime")
+#             break
+#     else:
+#             print("it is prime")
+        
+        

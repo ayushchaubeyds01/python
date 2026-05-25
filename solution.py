@@ -1375,3 +1375,28 @@
 
 
 
+
+##prime number
+# n=int(input("Enter no."))
+# if n<=1:
+#     is_prime=False
+# else:
+#     is_prime=True
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("it is prime")
+
+
+
+n=int(input("enter n:"))
+factorial=1
+org=n
+sum=0
+for i in range (1,n+1):
+    digit=org%10
+    sum+=digit
+    org//=10
+  
