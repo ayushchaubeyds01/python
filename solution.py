@@ -1391,12 +1391,23 @@
 
 
 
-n=int(input("enter n:"))
-factorial=1
-org=n
-sum=0
-for i in range (1,n+1):
-    digit=org%10
-    sum+=digit
-    org//=10
-  
+
+# #strong number 
+# num=int(input("enter number:"))
+# sum_factorial=0
+# temp=num
+# b=len(str(num))
+# for i in range(1,b+1):
+#     digit=temp%10
+#     #find factorial now
+#     factorial=1
+#     for j in range(1,digit+1):
+#         factorial=factorial*j
+#     sum_factorial=sum_factorial+factorial
+#     temp//=10
+# if sum_factorial==num:
+#     print("strong number")
+# else:
+#     print("not")
+
+
