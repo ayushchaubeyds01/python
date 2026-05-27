@@ -1520,4 +1520,39 @@
 
 
 
+# n=int(input("enter n:"))
+# if n<=1:
+#     is_prime=False
+# else:
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime no")
+        
+        
+# f=int(input("enter no:"))
+# for i in range(1,f+1):
+#     if f%i==0:
+#         print(i)
 
+
+
+##prime factor 
+# n=int(input("enter n:"))
+# for i in range(2,n+1):
+#     while n%i==0:
+#         print(i)
+#         n//=i
+
+
+
+##hcf
+n1=int(input("enter n:"))
+
+n2=int(input("enter n:"))
+
+for num in range (1,min(n1,n2)+1):
+    if n1%num==0 and n2%num==0:
+        print(num)
