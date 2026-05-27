@@ -1357,7 +1357,7 @@
 
 
 
-# #armstrong number
+# #armstrong number = no has n number of digit then sum of each digit with total no of  digit raised power equals to number itself
 # n=int(input("Enter n:"))
 # b=len(str(n))
 # org=n
@@ -1424,6 +1424,100 @@
 #     print("it is a perfect no")
 # else:
 #     print("it is not a strong number")
+
+
+
+# #automorphic number =  no whose square ends wtih number itself
+# n=int(input("enter n:"))
+# power=n**2
+# b=len(str(power))
+# for i in range (b):
+#     digit=power%10
+# if digit==n:
+#         print("it is ")
+# else:
+#         print("it is not")
+
+
+
+# #harshada numbers
+# n=int(input("enter n:"))
+# sum=0
+# temp=n
+# for i in range(1,n+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if (n%sum==0):
+#     print("harshad number")
+# else:
+#     print("not a harshad number")
+
+
+
+
+# #neon number
+# n=int(input("enter n:"))
+# sq=n**2
+# temp=sq
+# b=len(str(sq))
+# sum=0
+# for i in range (1,b+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if (sum==n):
+#     print("it is neon number")
+# else:
+#     print("it is not a neon number")
+
+
+
+
+# #prime number
+# n=int(input("enter n:"))
+# if n<=1:
+#     is_prime=False
+# else:
+#     for i in range (2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime")
+
+
+
+# #prime number from 1 to 100
+# for num in range (1,101):
+#     if num<=1:
+#         is_prime=False
+#     else:
+#         for i in range (2,int(num**0.5)+1):
+#             if num%i==0:
+#                 break
+#         else:
+#             print(num)
+
+
+
+
+
+# #twin prime numbers
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# if n1<=1:
+#     is_prime=False
+# else:
+#     for i in range(2,int(n1**0.5)+1) and (2,int(n2**0.5)+1):
+#         if n1%i==0 and n2%i:
+#             break
+#     else:
+#         if n1-n2==2:
+#             print("it is twin prime")
+#         else:
+#             print("not twin prime")
+
 
 
 
