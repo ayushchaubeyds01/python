@@ -1391,23 +1391,39 @@
 
 
 
-
-# #strong number 
-# num=int(input("enter number:"))
-# sum_factorial=0
-# temp=num
-# b=len(str(num))
-# for i in range(1,b+1):
+# # #strong number  =no whose sum of factorial is no itslf
+# n=int(input("enter n:"))
+# sum=0
+# temp=n
+# b=len(str(n))
+# for i in range (1,b+1):
 #     digit=temp%10
-#     #find factorial now
-#     factorial=1
-#     for j in range(1,digit+1):
-#         factorial=factorial*j
-#     sum_factorial=sum_factorial+factorial
+#     fact=1
+#     for j in range (1,digit+1):
+#         fact*=j
+#     sum+=fact
 #     temp//=10
-# if sum_factorial==num:
+# if sum==n:
 #     print("strong number")
 # else:
-#     print("not")
+#     print("it is not")
+
+
+
+
+
+# #perfect number  = no whosse divisor sum is number itself
+# n=int(input("enter n:"))
+# sum=0
+# #find divisors first
+# for i in range (1,n):
+#     if n%i==0:
+#         sum+=i #add all divisor to sum
+# print(sum)
+# if sum==n:
+#     print("it is a perfect no")
+# else:
+#     print("it is not a strong number")
+
 
 
