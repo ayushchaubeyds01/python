@@ -1890,4 +1890,23 @@
 
 
 
-#co prime
+# #co prime
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# for i in range(min(n1,n2),0,-1):
+#     if n1%i==0 and n2%i==0:
+#         if i==1:
+#             print("co prime")
+#         else:
+#             print("not")
+#         break
+
+
+#sum of even digits
+n=int(input("enter n:"))
+temp=n
+for i in range(1,n+1):
+    digit=temp%10
+    if digit%2==0:
+        print(digit)
+    temp//=10
