@@ -1500,7 +1500,18 @@
 #             print(num)
 
 
-
+# n=int(input("enter n:"))
+# is_prime=True
+# for i in range(1,n+1):
+#     if i<=1:
+#         is_prime=False
+#     else:
+#         for j in range(2,int(i**0.5)+1):
+#             if i%j==0:
+#                 is_prime=False
+#                 break
+#         else:
+#             print(i,"prime")
 
 
 # #twin prime numbers
@@ -1535,16 +1546,348 @@
 
 
 
+
+# #lcm
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# for i in range(max(n1,n2),n1*n2+1):  #as lcm of 2  num is always less than their multiplication
+#     if i%n1==0 and i%n2==0:   #which lowest value divisible by both numbers
+#         print(i)
+#         break
+    
+    
+    
 # #hcf
 # n1=int(input("enter n:"))
 # n2=int(input("enter n:"))
-# for i in range (1,min(n1,n2)):
-#     if n1%i==0 and n2%i==0:
+# for i in range(min(n1,n2),0,-1): #min is used because hcf of 2 num cannot be greater than smaller number
+#     if n1%i==0 and n2%i==0:  #factors which are common to divide both numbers
+#         print(i)
+#         break
+
+
+
+# #nth prime
+
+# n=int(input("enter n:"))
+# for i  in range (1,n+1):
+#     if n<=1:
+#         is_prime=False
+#     else: 
+#             if n%i==0:
+#                 print("not prime")
+#                 break
+#             else:
+#                 print(n,"prime")
+            
+            
+# for i in range(1,101):
+#     print(i)
+
+
+# for i in range(100,0,-1):
+#     print(i)
+
+
+# for i in range(1,101):
+#     if i%2==0:
 #         print(i)
 
 
-#lcm
-n1=int(input("enter n:"))
-n2=int(input("enter n:"))
-for i in range (1,n1+1):
-    print(n1*i)
+# for i in range(1,101):
+#     if i%2!=0:
+#         print(i)
+
+
+# n=int(input("Enter n:"))
+# sum=0
+# for i in range (1,n+1):
+#     sum+=i
+# print(sum)
+
+
+
+# n=int(input("Enter n:"))
+# pro=1
+# for i in range (1,n+1):
+#     pro*=i
+# print(pro)
+
+
+
+# limit=int(input("enter limit:"))
+# n=int(input("enter n:"))
+# for i in range(1,limit+1):
+#     print(i*n)
+
+
+
+# n=int(input("enter n:"))
+# fac=1
+# for i in range(1,n+1):
+#     fac*=i
+# print(fac)
+
+
+# n=int(input("enter n:"))
+# p=int(input("enter p:"))
+# for i in range(1,n+1):
+#     print(pow(n,p))
+#     break
+
+
+# n=int(input("enter n:"))
+# a=0
+# b=1
+# for i in range (1,n+1):
+#     print(a)
+#     a,b=b,a+b
+
+
+# n=int(input("enter n:"))
+# b=len(str(n))
+# count=0
+# for i in range(1,b+1):
+#     n//=10
+#     count+=1
+# print(count)
+
+
+# n=int(input("enter n:"))
+# sum=0
+# temp=n
+# for i in range(1,n+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# print(sum)
+
+
+# n=int(input("enter n:"))
+# rev=0
+# b=len(str(n))
+# for i in range(1,b+1):
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+# print(rev)
+
+
+
+# n=int(input("enter n:"))
+# rev=0
+# b=len(str(n))
+# org=n
+# for i in range(1,b+1):
+#     digit=org%10
+#     rev=rev*10+digit
+#     org//=10
+# if(n==rev):
+#     print("it is a palindrome")
+# else:
+#     print("it is not")
+
+
+# n=int(input("enter n:"))
+# b=len(str(n))
+# org=n
+# sum=0
+# for i in range(1,b+1):
+#     digit=org%10
+#     sum+=digit**b
+#     org//=10
+# if sum==n:
+#     print("armstrong number")
+# else:
+#     print("it is not")
+
+
+
+# n=int(input("enter n:"))
+# b=len(str(n))
+# sum=0
+# org=n
+# for i in range(1,b+1):
+#     digit=org%10
+#     fac=1
+#     for j in range(1,digit+1):
+#         fac=fac*j
+#     sum+=fac
+#     org//=10
+# if (sum==n):
+#     print("strong num")
+# else:
+#     print("it is not")
+
+
+
+# n=int(input("enter n:"))
+# org=n
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print("it is a perfect number")
+# else:
+#     print("it is not")
+
+
+
+
+# n=int(input("enter n:"))
+# sq=n**2
+# temp=sq
+# for i in range(1,sq+1):
+#     digit=temp%10
+#     break
+# if digit==n:
+#     print("automorphic number")
+# else:
+#     print("not")
+
+
+
+# n=int(input("enter n:"))
+# temp=n
+# sum=0
+# for i in range(1,n+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if n%sum==0:
+#     print("harshad number")
+# else:
+#     print("not")
+
+
+# n=int(input("enter n:"))
+# sq=n**2
+# sum=0
+# temp=sq
+# b=len(str(sq))
+# for i in range(1,b+1):
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if sum == n:
+#     print("neon number")
+# else:
+#     print("not")
+
+# n=int(input("enter n:"))
+# if n<=1:
+#     is_prime=False
+# else:
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print("prime no")
+
+
+
+# for i in range (1,101):
+#     if i<=1:
+#         is_prime=False
+#     else:
+#         is_prime=True
+#         for j in range(2,int(i**0.5)+1):
+#             if i%j==0:
+#                 is_prime=False
+#                 break
+#         else:
+#             print(i,"prime")
+
+
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# if n1<=1 and n2<=1:
+#     is_prime=False
+# else:
+#     for i in range (2,int(n1**0.5)+1) and (2,int(n2**0.5)+1):
+#         if n1%i==0 and n2%i==0:
+#             is_prime=False
+#             break
+#     else:
+#         if n1-n2==2:
+#             print("twin prime")
+#         else:
+#             print("not")
+
+
+
+# n=int(input("enter n:"))
+# for i in range(2,n):
+#     if n%i==0:
+#         print(i)
+#         if i<=1:
+#             is_prime=False
+#         else:
+#             for j in range (2,int(i**0.5)):
+#                 if i%j==0:
+#                     print("not a prime factor")
+                    
+#             else:
+#                 print("prime factor")
+
+# n=int(input("enter n:"))
+# for i in range(2,n):
+#     if n%i==0:
+#         for j in range(2,int(i**0.5)+1):
+#             if i%j==0:
+#                 print(i,"not a prime factor")
+#                 break
+#         else:
+#             print(i,"prime factors")
+
+
+
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# for i in range(min(n1,n2),0,-1):
+#     if n1%i==0 and n2%i==0:
+#         print(i)
+#         break
+
+
+
+# #lcm
+# n1=int(input("enter n:"))
+# n2=int(input("enter n:"))
+# for i in range(max(n1,n2),n1*n2+1):
+#     if i%n1==0 and i%n2==0:
+#         print(i)
+#         break
+
+
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#     if i<=1:
+#         is_prime=False
+#     else:
+#         for j in range (2,int(i**0.5)+1):
+#             if i%j==0:
+#                 is_prime=False
+#                 break
+#         else:
+#             print(i,"prime")
+
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#     if i<=1:
+#         is_prime=False
+#     else:
+#         for j in range(2,int(i**0.5)+1):
+#             if i%j==0:
+#                 is_prime=False
+#                 break
+#         else:
+#             print(i,"prime")
+
+
+
+#co prime

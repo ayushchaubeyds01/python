@@ -1,13 +1,12 @@
-num=int(input("enter number:"))
-# if num<=1:
-#     print("not prime")
-# else:
-    
-#     for i in range(2,int(num**0.5)+1):
-#         if num%i==0:
-#             print("it is not prime")
-#             break
-#     else:
-#             print("it is prime")
-        
-        
+
+for i in range (1,101):
+    if i<=1:
+        is_prime=False
+    else:
+        is_prime=True
+        for j in range(2,int(i**0.5)+1):
+            if i%j==0:
+                is_prime=False
+                break
+        else:
+            print(i,"prime")
