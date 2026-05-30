@@ -1902,11 +1902,14 @@
 #         break
 
 
+
 #sum of even digits
 n=int(input("enter n:"))
-temp=n
-for i in range(1,n+1):
-    digit=temp%10
-    if digit%2==0:
+b=len(str(n))
+for i in range(1,b+1):
+    digit=n%10
+    if digit%2!=0:
+        continue
+    else:
         print(digit)
-    temp//=10
+    n//=10
