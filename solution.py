@@ -1903,13 +1903,89 @@
 
 
 
-#sum of even digits
-n=int(input("enter n:"))
-b=len(str(n))
-for i in range(1,b+1):
-    digit=n%10
-    if digit%2!=0:
-        continue
-    else:
-        print(digit)
-    n//=10
+# #sum of even digits
+# n=int(input("enter n:"))
+# b=len(str(n))
+# sum=0
+# for i in range(1,b+1):
+#     digit=n%10
+#     if digit%2==0:
+#         sum+=digit
+#     n//=10
+# print(sum)
+
+
+
+# #product of odd digit
+# n=int(input("enter n:"))
+# b=len(str(n))
+# product=1
+# for i in range(1,b+1):
+#     digit=n%10
+#     if digit%2!=0:
+#         product*=digit
+#     n//=10
+# print(product)
+
+
+
+# #largest digit in a number
+# n=int(input("enter n:"))
+# b=len(str(n))
+# largest=0
+# for i in range(1,b+1):
+#     digit=n%10
+#     if digit>largest:
+#         largest=digit
+#     n//=10
+# print(largest)
+
+
+
+# #smallest digit in a number
+# n=int(input("enter n:"))
+# b=len(str(n))
+# smallest=n%10
+# for i in range(1,b+1):
+#     digit=n%10
+#     if digit<smallest:
+#         smallest=digit
+#     n//=10
+# print(smallest)
+
+
+
+# n=int(input("enter n:"))
+# b=len(str(n))
+# largest=0
+# for i in range (1,b+1):
+#     digit=n%10
+#     if digit>largest:
+#         largest=digit
+#     n//=10
+# print(largest)
+
+
+
+# n=int(input("Enter n:"))
+# b=len(str(n))
+# smallest=n%10
+# for i in range(1,b+1):
+#     digit=n%10
+#     if digit<smallest:
+#         smallest=digit
+#     n//=10
+# print(smallest)
+
+
+# #frequency of a number
+# n=int(input("Enter n:"))
+# b=len(str(n))
+# choice=int(input("enter choice:"))
+# freq=0
+# for i in range(1,b+1):
+#     digit=n%10
+#     if choice==digit:
+#         freq+=1
+#     n//=10
+# print(freq)
