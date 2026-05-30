@@ -1989,3 +1989,21 @@
 #         freq+=1
 #     n//=10
 # print(freq)
+
+
+
+# #binary to decimal
+# n=int(input("Enter n:"))
+# b=len(str(n))
+# sum=0
+# power=0
+# for i in range(1,b+1):
+#     digit=n%10
+#     binary=digit*(2**power)
+#     sum+=binary
+#     n//=10
+#     power+=1
+# print(sum)
+
+
+
