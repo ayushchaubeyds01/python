@@ -2007,3 +2007,65 @@
 
 
 
+# #decimal to binary
+# n=int(input("enter num:"))
+# bin=""
+# while n>0:
+#     digit=n%2
+#     bin=str(digit)+bin
+#     n//=2
+# print(bin)
+
+
+
+# #decimal to octal
+# n=int(input("enter n:"))
+# octal=""
+# while n>0:
+#     digit=n%8
+#     octal=str(digit)+octal
+#     n//=8
+# print(octal)
+
+
+# #decimal to hexadecimal
+# n=int(input("enter n:"))
+
+# hexa=""
+# while n>0:
+#     digit=n%16
+#     if digit<10:
+#         hexa=str(digit)+hexa   
+#     else:
+#         hexa=chr(digit+55)+hexa
+#     n//=16
+# print(hexa)
+
+
+
+
+# #spy numbers === whose sum of digit = product of digits
+# n=int(input("enter n:"))
+# b=len (str(n))
+# sum=0
+# product=1
+# for i in range(1,b+1):
+#     digit=n%10
+#     sum+=digit
+#     product*=digit
+#     n//=10
+# if sum==product:
+#     print("spy numbers")
+# else:
+#     print("not")
+
+
+######series problems
+#sum of squares
+n=int(input("enter n:"))
+sum=0
+for num in range(1,n+1):
+    digit=(num)%10
+    sum+=digit
+    num//=10
+print(sum)

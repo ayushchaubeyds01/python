@@ -159,7 +159,17 @@ Decimal to binary.
 Decimal to octal.
 Decimal to hexadecimal.
 Check spy number.
+
+
+
+
+
 Series Problems
+
+
+
+
+
 Sum of squares.
 Sum of cubes.
 Harmonic series.
