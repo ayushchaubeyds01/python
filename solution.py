@@ -2061,11 +2061,112 @@
 
 
 ######series problems
-#sum of squares
-n=int(input("enter n:"))
+# #sum of squares
+# n=int(input("enter n:"))
+# sum=0
+# # loop to get a square
+# for i in range(1,n+1):
+#     sum+=pow(i,2)
+#     i/=10
+# print(sum)
+    
+        
+        
+# #sum of cubes
+# n=int(input(("enter n:")))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=pow(i,3)
+#     i//=10
+# print(sum)
+
+
+
+# #harmonic series
+# n=int(input(("enter n:")))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=1/i
+# print(sum)
+
+
+# #arithmetic progression.
+# a=int(input(("enter a:")))
+# n=int(input(("enter n:")))
+# d=int(input(("enter d:")))
+# sum=0
+# for i in range(a,n+1):
+#     sum+=a
+#     a=a+d
+# print(sum)
+
+
+#
+
+
+
+# #geometric progression
+# a=int(input(("enter a:")))
+# n=int(input(("enter n:")))
+# r=int(input(("enter r:")))
+# sum=0
+# for i in range(a,n+1):
+#     sum+=a
+#     a=a*r
+# print(sum)
+
+
+
+
+
+############pattern based series
+
+# # alternating ap series
+# a=int(input(("enter a:")))
+# n=int(input(("enter n:")))
+# d=int(input(("enter d:")))
+# sum=0
+# for i in range(a,n+1):
+#     sum+=a
+#     a=a+d
+#     a=a-d
+# print(sum)
+
+
+
+# ## alternating gp
+# a=int(input(("enter a:")))
+# n=int(input(("enter n:")))
+# r=int(input(("enter r:")))
+# sum=0
+# for i in range(n):
+#     sum+=a
+#     a=a*(-r)
+# print(sum)
+
+
+
+#  #alternating ap series
+# a=int(input(("enter a:")))
+# n=int(input(("enter n:")))
+# d=int(input(("enter d:")))
+# sum=0
+# term=a
+# for i in range(n):
+#     if i%2==0:
+#         sum+=term
+#     else:
+#         sum-=term
+#     term+=d
+# print(sum)
+
+
+
+
+
+#exponential series
+n=int(input(("enter n:")))
+r=int(input(("enter d:")))
 sum=0
-for num in range(1,n+1):
-    digit=(num)%10
-    sum+=digit
-    num//=10
-print(sum)
+for i in range(1,n+1):
+    

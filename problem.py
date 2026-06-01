@@ -175,7 +175,12 @@ Sum of cubes.
 Harmonic series.
 Geometric progression.
 Arithmetic progression.
+
+
+
 Pattern-based series.
+
+
 Alternating sum series.
 Exponential series.
 Find nth Fibonacci.
@@ -193,7 +198,15 @@ Multiplication grid.
 Coordinate printing.
 Pair combinations.
 Matrix-like printing.
+
+
+
+
 Pattern counting.
+
+
+
+
 Nested star patterns.
 Number pyramids.
 Hollow patterns.
