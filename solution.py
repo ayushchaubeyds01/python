@@ -2164,9 +2164,22 @@
 
 
 
-#exponential series
-n=int(input(("enter n:")))
-r=int(input(("enter d:")))
-sum=0
+# # exponential series
+# a=int(input("enter a:"))
+# n=int(input("enter n:"))
+# d=int(input("Enter d:"))
+# sum=0
+# for i in range(a,n+1):
+#     sum=sum+a
+#     a=a*d
+# print(sum)
+
+
+
+#fibonacci series
+n=int(input("enter n:"))
+a=0
+b=1
 for i in range(1,n+1):
-    
+    print(a)
+    a,b=b,a+b
