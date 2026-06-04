@@ -2176,10 +2176,16 @@
 
 
 
-#fibonacci series
-n=int(input("enter n:"))
-a=0
-b=1
-for i in range(1,n+1):
-    print(a)
-    a,b=b,a+b
+# #fibonacci series
+# n=int(input("enter n:"))
+# a=0
+# b=1
+# for i in range(1,n+1):
+#     print(a)
+#     a,b=b,a+b
+
+
+
+# #pascal triangle row sum
+# n=int(input("enter n:"))
+# print(2**(n))

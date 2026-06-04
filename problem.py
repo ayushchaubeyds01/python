@@ -202,16 +202,6 @@ Matrix-like printing.
 
 
 
-Pattern counting.
-
-
-
-
-Nested star patterns.
-Number pyramids.
-Hollow patterns.
-Diamond patterns.
-Butterfly patterns.
 
 
 
@@ -223,7 +213,11 @@ strongest beginner logic builder
 Questions
 
 
-
+Nested star patterns.
+Number pyramids.
+Hollow patterns.
+Diamond patterns.
+Butterfly patterns.
 Left triangle stars
 Right triangle stars
 Inverted triangle
