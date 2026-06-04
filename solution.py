@@ -2189,3 +2189,38 @@
 # #pascal triangle row sum
 # n=int(input("enter n:"))
 # print(2**(n))
+
+
+
+
+
+
+
+#########pattern problems'
+
+
+# #square pattern
+# for i in range(1,5):
+#     for j in range(1,5):
+#         print("*",end="  ")
+#     print()
+
+
+
+
+# #right triangle pattern
+# for i in range(1,6):
+#     print("*"*i)
+
+
+
+# #inverted right triangle pattern
+# for i in range(6,0,-1):
+#     print("*"*i)
+
+
+# #left triangle pattern
+
+    
+    
+#inverted left triangle pattern

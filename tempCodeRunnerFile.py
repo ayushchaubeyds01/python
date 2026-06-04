@@ -1,8 +1,2 @@
-a=int(input(("enter a:")))
-n=int(input(("enter n:")))
-r=int(input(("enter r:")))
-sum=0
-for i in range(a,n+1):
-    sum+=a
-    a=a*r
-print(sum)
+for i in range(1,6):
+    print("*"*(6-i))

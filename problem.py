@@ -189,22 +189,6 @@ Pascal triangle row sum.
 
 
 
-
-Nested Loops
-
-
-
-Multiplication grid.
-Coordinate printing.
-Pair combinations.
-Matrix-like printing.
-
-
-
-
-
-
-
 4. Patterns (40 Questions)
 
 Goal:
