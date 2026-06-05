@@ -15,3 +15,7 @@
 # number="1234567890"
 # # print(number[0:4:2])
 # print(number[::-1])
+
+
+n="ayush"
+print(n[0:5:2])

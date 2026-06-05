@@ -2224,3 +2224,63 @@
     
     
 #inverted left triangle pattern
+
+
+
+#harry practice set
+#no from 1 to 10
+# for i in range(1,11):
+#     print(i)
+
+
+#multiplication table
+# n=int(input("enter:"))
+# for i in range(1,11):
+#     print(i,"*",n,"=",i*n)
+
+
+
+
+# #sum of numbers
+# sum=0
+# for i in range(1,101):
+#     sum+=i
+# print(sum)
+
+
+# #right triangle star pattern
+# for i in range(1,6):
+#     print("*"*i)
+
+
+#no from 1 to 10 using while loop
+# n=1
+# while n>0:
+#     print(n)
+#     n+=1
+#     if n ==11:
+#         break
+
+
+# #password checker
+# password=191984
+# while True:
+#     entered_pass=int(input("enter password:"))
+#     if entered_pass!=password:
+#         print("try again!")
+#     else:
+#         print("unlocked")
+#         break
+
+
+
+## palindrome checker
+# n=int(input("enter n:"))
+# rev=0
+# while n >0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n//=10
+# print(rev)
+
+
