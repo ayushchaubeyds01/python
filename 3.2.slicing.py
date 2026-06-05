@@ -17,5 +17,5 @@
 # print(number[::-1])
 
 
-n="ayush"
-print(n[0:5:2])
+# n="ayush"
+# print(n[0:5:2])

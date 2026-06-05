@@ -80,3 +80,74 @@
 # else:
 #     print("not palindrome")
     
+    
+    
+# name="ayush chaubey"
+# print(name[0])
+# print(name[12])
+# print(len(str(name)))
+
+
+
+# a="hello"
+# b="world"
+# print(a + b)
+
+
+# text="python programming"
+# print(text[0:7])
+# print(text[12:19])
+# print(text[0:19:2])
+# print(text[::-1])
+
+
+
+# text="  i love python programming  "
+# print(text.strip())
+# print(text.title())
+# print(text.count("o")
+
+
+# text="123abc" 
+# print(text.isalnum())
+
+
+# name="john"
+# age=25
+# temp=("my name is {} and i am {}years old")
+# s1=temp.format(name,age)
+# print(s1)
+
+
+# name="john"
+# age=25
+# print(f"my name is { name} and i am { age}years old")
+
+
+
+
+# sentence = "Coding in Python is fun"
+# print(sentence.replace("fun","awesome"))
+# ind=sentence.index("Python")
+# print(ind)
+# print(sentence.upper())
+
+
+
+# ch=input("enter char:")
+# vowel='a','i','o','u','e'
+# sum=0
+# for char in ch:
+#     if char in vowel:
+#         sum+=1
+# print(sum)
+
+
+
+
+# string="madam"
+# if string==string[::-1]:
+#     print("palindrome")
+# else:
+#     print("not")
+
