@@ -2284,3 +2284,70 @@
 # print(rev)
 
 
+
+
+'''* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *'''
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print("*",end="")
+#     print()
+
+
+'''left half pyramid
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+
+# for i in range(1,6):
+#     print("*"*i)
+
+
+''' inverted left pyramid
+* * * * *
+* * * *
+* * *
+* *
+*
+'''
+# for  i in range(6,0,-1):
+#     print("*"*i)
+
+
+''' right half pyramid
+        *
+      * *
+    * * *
+  * * * *
+* * * * *'''
+# n=int(input("enter n:"))
+# for i in range(1,n+1): #to print new rows
+#     for j in range(n-i): #to print whitespaces
+#         print(" ",end="")
+#     for k in range(i):   #for each i print a *
+#         print("*",end="")    #end="" do not start a new line
+#     print()   #print no of rows
+
+
+
+
+''' inverted right pyramid
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+'''
+n=int(input("enter n:"))
+for i in range(n,0,-1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end="")
+    print()
