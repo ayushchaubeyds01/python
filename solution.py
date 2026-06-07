@@ -2502,14 +2502,367 @@
 *     * 
 * * * * * 
 '''
-n = int(input("Enter n: "))
 
-for i in range(1, n + 1):
-    for j in range(1, i + 1):
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     if j==1 or j==i or i==n:
+#       print("*",end="")
+#     else:
+#       print(" ",end="")
+#   print()
 
-        if j == 1 or j == i or i == n:
-            print("*", end="")
-        else:
-            print(" ", end="")
 
-    print()
+
+
+
+''' inverted hollow half left pyramid
+*****
+*  *
+* *
+**
+*
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(1,i+1):
+#     if i==1 or j==1 or j==i or i==n:
+#       print("*",end="")
+#     else:
+#       print(" ",end="")
+#   print()
+
+
+
+
+
+'''square
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     print("* ",end="")
+#   print()
+  
+  
+''' recctangle
+* * * * * *
+* * * * * *
+* * * * * *
+* * * * * * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n):
+#   for j in range(1,n+2):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+'''left half pyramid
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+'''
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   print("* "*i)
+
+
+
+
+''' inverted left half pyramid
+* * * * *
+* * * *
+* * *
+* *
+* 
+'''
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   print("* "*i)
+
+
+
+
+
+'''right half pyramid
+        *
+      * *
+    * * *
+  * * * *
+* * * * * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(i):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+
+'''inverted right half pyramid
+* * * * * 
+  * * * * 
+    * * * 
+      * * 
+        *
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(i):
+#     print("* ",end="")
+#   print()
+
+
+
+
+'''pyramid
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+'''inverted pyramid
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+
+
+
+'''diamond
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        * 
+'''
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+# for i in range(n-1,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+
+'''hollow sqaure
+* * * * * 
+*       * 
+*       * 
+*       * 
+* * * * * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if i==1 or i==n or j==1 or j==n:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+
+
+'''hollow rectangle
+******
+*    *
+*    *
+******
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n):
+#   for j in range(1,n+2):
+#     if i==1 or i==n-1 or j==1 or j==n+1:
+#       print("*",end="")
+#     else:
+#       print(" ",end="")
+#   print()
+
+
+
+
+
+
+''' hollow left half pyramid
+*         
+* *       
+*   *     
+*     *   
+* * * * *
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if j==1 or i==n or j==i :
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+''' inverted left half hollow pyramid
+* * * * * 
+*     * 
+*   * 
+* * 
+* 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(1,i+1):
+#     if i==n or j==1 or i==j:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+
+'''right half hollow pyramid
+        * 
+      * * 
+    *   * 
+  *     * 
+* * * * * 
+'''
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,i+1):
+#     if k==1 or i==n or k==i:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+
+'''inverted right half hollow pyramid
+* * * * * 
+  *     * 
+    *   * 
+      * * 
+        * 
+'''
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,i+1):
+#     if i==n or k==1 or k==i:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+
+
+''' hollow pyramid
+        * 
+      *   * 
+    *       * 
+  *           * 
+* * * * * * * * * 
+'''
+
+n=int(input("enter n:"))
+for i in range(1,n+1):
+  for j in range(n-i):
+    print("  ",end="")
+  for k in range(2*i-1):
+    if i==1 or i==n or k==0 or k==2*i-2:
+      print("* ",end="")
+    else:
+      print("  ",end="")
+  print()
