@@ -201,7 +201,6 @@ Nested star patterns.
 Number pyramids.
 Hollow patterns.
 Diamond patterns.
-Butterfly patterns.
 Left triangle stars
 Right triangle stars
 Inverted triangle
