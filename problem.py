@@ -370,42 +370,11 @@ Merge intervals basic
 
 
 
-7. Functions + Recursion (30 Questions)
-Simple calculator functions
-Prime function
-Palindrome function
-Armstrong function
-Recursive factorial
-Recursive Fibonacci
-Recursive reverse string
-Recursive palindrome
-Recursive binary conversion
-Tower of Hanoi
-Recursive GCD
-Recursive power
-Nested functions
-Lambda sorting
-Map/filter/reduce practice
-Function decorators basic
-Variable arguments
-Keyword arguments
-Scope problems
-Memoization basic
-Recursive patterns
-Recursive list sum
-Recursive maximum
-Recursive search
-Recursive permutations
-Recursive subsets
-Backtracking maze basic
-N-Queens basic
-Sudoku validator
-Mini recursive parser
 
 
 
 
-8. Projects (MOST IMPORTANT)
+7. Projects (MOST IMPORTANT)
 
 
 
@@ -585,4 +554,194 @@ First non-repeating character.
 Roman numeral converter.
 URL shortener logic basic.
 Word autocomplete basic.
-Mini interpreter using dictionary commands.'''
+Mini interpreter using dictionary commands.
+
+
+
+Basic Functions (1–15)
+Function to add two numbers.
+Function to find maximum of two numbers.
+Function to check even/odd.
+Function to calculate square.
+Function to calculate cube.
+Function to find factorial.
+Function to find sum of digits.
+Function to reverse a number.
+Function to count digits.
+Function to check palindrome number.
+Function to check leap year.
+Function to calculate simple interest.
+Function to calculate area of circle.
+Function to convert Celsius to Fahrenheit.
+Function to find ASCII value of a character.
+
+
+
+
+
+
+
+
+
+Intermediate Functions (16–30)
+
+
+
+
+
+
+Function to check prime number.
+Function to print all primes up to n.
+Function to find GCD of two numbers.
+Function to find LCM.
+Function to generate Fibonacci series.
+Function to find nth Fibonacci number.
+Function to count vowels in a string.
+Function to count words in a string.
+Function to reverse a string.
+Function to check palindrome string.
+Function to sort a list.
+Function to find largest element in a list.
+Function to find second largest element.
+Function to remove duplicates from a list.
+Function to merge two lists.
+
+
+
+
+Advanced Functions (31–50)
+
+
+
+
+
+Function to check Armstrong number.
+Function to check Perfect number.
+Function to check Strong number.
+Function to generate Pascal Triangle.
+Function to calculate nCr.
+Function to calculate power (xⁿ).
+Function to find frequency of elements in a list.
+Function to find common elements in two lists.
+Function to flatten nested lists.
+Function to count uppercase and lowercase letters.
+Function to find all divisors of a number.
+Function to check anagram strings.
+Function to rotate a list.
+Function to find missing number in array.
+Function to find duplicates in array.
+Function to perform matrix addition.
+Function to perform matrix multiplication.
+Function to transpose a matrix.
+Function to implement binary search.
+Function to implement linear search.
+
+
+
+
+
+
+
+
+
+50 Recursion Questions
+
+
+
+
+
+
+
+
+
+
+Beginner (1–15)
+
+
+
+
+
+
+Print numbers from 1 to n.
+Print numbers from n to 1.
+Find sum of first n natural numbers.
+Find factorial.
+Find power xⁿ.
+Find product of first n natural numbers.
+Count digits in a number.
+Sum of digits.
+Reverse a number.
+Print even numbers up to n.
+Print odd numbers up to n.
+Find maximum element in list.
+Find minimum element in list.
+Find nth Fibonacci number.
+Print Fibonacci series.
+
+
+
+
+
+
+Intermediate (16–30)
+
+
+
+
+
+Check palindrome string.
+Check palindrome number.
+Find GCD of two numbers.
+Convert decimal to binary.
+Calculate LCM.
+Sum of array elements.
+Product of array elements.
+Count occurrences of an element.
+Find largest digit in number.
+Find smallest digit in number.
+Check sorted array.
+Linear search recursively.
+Binary search recursively.
+Count vowels in string.
+Remove spaces from string.
+
+
+
+
+
+
+
+
+
+
+Advanced (31–50)
+
+
+
+
+
+
+
+
+Tower of Hanoi.
+Generate all subsets.
+Generate all permutations of string.
+Generate all combinations.
+Solve N-Queens.
+Solve Sudoku.
+Rat in a Maze.
+Word Search problem.
+Generate balanced parentheses.
+Josephus problem.
+Count paths in matrix.
+Find kth symbol in grammar.
+Recursive merge sort.
+Recursive quick sort.
+Recursive insertion sort.
+Recursive selection sort.
+Recursive bubble sort.
+Generate power set.
+String subsequences.
+Recursive Pascal Triangle.
+
+'''
