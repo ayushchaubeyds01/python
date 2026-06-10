@@ -198,7 +198,6 @@ Questions
 
 
 Nested star patterns.
-Number pyramids.
 Hollow patterns.
 Diamond patterns.
 Left triangle stars
@@ -209,31 +208,27 @@ Reverse pyramid
 Diamond
 Hollow square
 Hollow pyramid
-Number triangle
-Floyd triangle
-Pascal triangle
-Character triangle
-Binary pattern
 Butterfly pattern
 Sandglass pattern
 X pattern
 Cross pattern
 Hourglass
+Hollow butterfly
+Hollow diamond
+plus pattern
+Mirrored triangle
+Pyramid with spaces
 Zig-zag
+Rhombus
+Hollow rhombus
+Double hill
 Concentric square
 Snake pattern
 Spiral pattern
-Hollow diamond
 Palindrome pyramid
 Number diamond
 Alternating binary
 Alphabet pyramid
-Mirrored triangle
-Hollow butterfly
-Rhombus
-Hollow rhombus
-Double hill
-Pyramid with spaces
 Continuous number pattern
 Reverse continuous pattern
 Character reverse pyramid
@@ -241,7 +236,12 @@ Number hourglass
 Pascal variation
 Triangular multiplication
 Complex custom mixed pattern
-
+Number triangle
+Number pyramids.
+Floyd triangle
+Pascal triangle
+Character triangle
+Binary pattern
 
 
 

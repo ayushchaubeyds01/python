@@ -3384,14 +3384,54 @@
 
 
 
-
-
+''' hollow hour glass
+* * * * * 
+ *     * 
+  *   * 
+   * * 
+    * 
+   * * 
+  *   * 
+ *     * 
+* * * * * '''
 # n=int(input("enter n:"))
-# for i in range (n,0,-1):
+# for i in range(n,0,-1):
 #   for j in range(n-i):
 #     print(" ",end="")
 #   for k in range(i):
-#     if i==n  or k==0 or k==i-1:
+#     if   k==0  or k==i-1 or i==n:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+# for i in range(2,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     if i==n or k==0 or k==i-1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+  
+  
+  
+  
+  
+''' x pattern
+*   * 
+ * * 
+  * 
+ * * 
+*   * 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     if k==0 or k==i-1:
 #       print("* ",end="")
 #     else:
 #       print("  ",end="")
@@ -3401,8 +3441,55 @@
 #   for j in range(n-i):
 #     print(" ",end="")
 #   for k in range(i):
-#     if k==0 or i==n or k==i-1:
+#     if k==0 or k==i-1:
 #       print("* ",end="")
 #     else:
 #       print("  ",end="")
 #   print()
+
+
+
+
+
+
+
+
+'''plus 
+        *
+        *
+    * * * * * 
+        *
+        *
+'''
+
+# n=int(input("enter n:"))
+# mid=(n//2)+1
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if i==mid or  j==mid:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+'''pyramid with spaces
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+'''
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     print("* ",end="")
+#   print()
+
+
