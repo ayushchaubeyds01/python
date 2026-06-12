@@ -250,9 +250,7 @@ Binary pattern
 
 Goal:
 
-interview-level logic
-manipulation mastery
-Questions
+
 Reverse string
 Palindrome string
 Count vowels
@@ -303,6 +301,92 @@ URL parser basic
 Roman numeral converter
 Balanced parentheses
 Expression validator
+
+
+
+
+
+Basic Functions (1–15)
+
+
+
+
+Function to add two numbers.
+Function to find maximum of two numbers.
+Function to check even/odd.
+Function to calculate square.
+Function to calculate cube.
+Function to find factorial.
+Function to find sum of digits.
+Function to reverse a number.
+Function to count digits.
+Function to check palindrome number.
+Function to check leap year.
+Function to calculate simple interest.
+Function to calculate area of circle.
+Function to convert Celsius to Fahrenheit.
+Function to find ASCII value of a character.
+
+
+
+
+
+
+
+
+
+Intermediate Functions (16–30)
+
+
+
+
+
+
+Function to check prime number.
+Function to print all primes up to n.
+Function to find GCD of two numbers.
+Function to find LCM.
+Function to generate Fibonacci series.
+Function to find nth Fibonacci number.
+Function to count vowels in a string.
+Function to count words in a string.
+Function to reverse a string.
+Function to check palindrome string.
+Function to sort a list.
+Function to find largest element in a list.
+Function to find second largest element.
+Function to remove duplicates from a list.
+Function to merge two lists.
+
+
+
+
+Advanced Functions (31–50)
+
+
+
+
+
+Function to check Armstrong number.
+Function to check Perfect number.
+Function to check Strong number.
+Function to generate Pascal Triangle.
+Function to calculate nCr.
+Function to calculate power (xⁿ).
+Function to find frequency of elements in a list.
+Function to find common elements in two lists.
+Function to flatten nested lists.
+Function to count uppercase and lowercase letters.
+Function to find all divisors of a number.
+Function to check anagram strings.
+Function to rotate a list.
+Function to find missing number in array.
+Function to find duplicates in array.
+Function to perform matrix addition.
+Function to perform matrix multiplication.
+Function to transpose a matrix.
+Function to implement binary search.
+Function to implement linear search.
 
 
 
@@ -556,85 +640,6 @@ URL shortener logic basic.
 Word autocomplete basic.
 Mini interpreter using dictionary commands.
 
-
-
-Basic Functions (1–15)
-Function to add two numbers.
-Function to find maximum of two numbers.
-Function to check even/odd.
-Function to calculate square.
-Function to calculate cube.
-Function to find factorial.
-Function to find sum of digits.
-Function to reverse a number.
-Function to count digits.
-Function to check palindrome number.
-Function to check leap year.
-Function to calculate simple interest.
-Function to calculate area of circle.
-Function to convert Celsius to Fahrenheit.
-Function to find ASCII value of a character.
-
-
-
-
-
-
-
-
-
-Intermediate Functions (16–30)
-
-
-
-
-
-
-Function to check prime number.
-Function to print all primes up to n.
-Function to find GCD of two numbers.
-Function to find LCM.
-Function to generate Fibonacci series.
-Function to find nth Fibonacci number.
-Function to count vowels in a string.
-Function to count words in a string.
-Function to reverse a string.
-Function to check palindrome string.
-Function to sort a list.
-Function to find largest element in a list.
-Function to find second largest element.
-Function to remove duplicates from a list.
-Function to merge two lists.
-
-
-
-
-Advanced Functions (31–50)
-
-
-
-
-
-Function to check Armstrong number.
-Function to check Perfect number.
-Function to check Strong number.
-Function to generate Pascal Triangle.
-Function to calculate nCr.
-Function to calculate power (xⁿ).
-Function to find frequency of elements in a list.
-Function to find common elements in two lists.
-Function to flatten nested lists.
-Function to count uppercase and lowercase letters.
-Function to find all divisors of a number.
-Function to check anagram strings.
-Function to rotate a list.
-Function to find missing number in array.
-Function to find duplicates in array.
-Function to perform matrix addition.
-Function to perform matrix multiplication.
-Function to transpose a matrix.
-Function to implement binary search.
-Function to implement linear search.
 
 
 

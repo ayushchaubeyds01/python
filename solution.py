@@ -3647,12 +3647,110 @@
 
 
 
-n=int(input("enter n:"))
 
-for i in range(1,n+1):
-  for j in range(1,n+1):
-    if i==1 or i==n or j==n  :
-      print("* ",end="")
-    else:
-      print("  ",end="")
-  print()
+
+'''palindrrome pyramid
+        1
+      32123
+    543212345
+  7654321234567
+98765432123456789
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range((2*i-1),0,-1):
+#     print(k,end="")
+#   for l in range(2,(2*i-1)+1):
+#     print(l,end="")
+#   print()
+
+
+
+
+
+
+
+
+
+
+
+''' number diamond
+
+
+        1
+      32123
+    543212345
+  7654321234567
+98765432123456789
+  7654321234567
+    543212345
+      32123
+        1
+        '''
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range((2*i-1),0,-1):
+#     print(k,end="")
+#   for l in range(2,(2*i-1)+1):
+#     print(l,end="")
+#   print()
+
+# for i in range(n-1,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range((2*i-1),0,-1):
+#     print(k,end="")
+#   for l in range(2,(2*i-1)+1):
+#     print(l,end="")
+#   print()
+
+
+
+
+
+
+
+
+
+'''Number pyramids.
+    0
+   012
+  01234
+ 0123456
+012345678
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(2*i-1 ):
+#     print(k,end="")
+#   print()
+
+
+
+
+
+
+
+'''number triangle
+1
+12
+123
+1234
+12345
+'''
+
+# n=int(input("enter n:"))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print(j,end="")
+#   print()
+
+
