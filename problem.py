@@ -218,13 +218,14 @@ Hollow diamond
 plus pattern
 Mirrored triangle
 Pyramid with spaces
-Zig-zag
 Rhombus
 Hollow rhombus
 Double hill
+hollow double hill
 Concentric square
 Snake pattern
 Spiral pattern
+Zig-zag
 Palindrome pyramid
 Number diamond
 Alternating binary
