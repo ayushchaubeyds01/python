@@ -224,7 +224,6 @@ Double hill
 hollow double hill
 Concentric square
 Snake pattern
-Spiral pattern
 Zig-zag
 Palindrome pyramid
 Number diamond

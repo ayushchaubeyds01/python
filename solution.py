@@ -3966,24 +3966,63 @@ A B C D E F G H I
 
 
 
-n = int(input("Enter n: "))
-for i in range(n,0,-1):
-  for j in range(n-i):
-    print(" ",end="")
-  for k in range(i):
-    if k==0 or k==i-1:
-      print("* ",end="")
-    else:
-      print("  ",end="")
-  print()
+
+
+
+
+'''zig zag pattern
+*       * *       *
+ *     *   *     *
+  *   *     *   *
+   * *       * *
+    *         *
+   * *       * *
+  *   *     *   *
+ *     *   *     *
+*       * *       * 
+'''
+
+# n = int(input("Enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     if k==0 or k==i-1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   for l in range(n-i):
+#     print("  ",end="")
+#   for m in range(i):
+#     if m==0 or m==i-1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
   
   
-for i in range(2,n+1):
-  for j in range(n-i):
-    print(" ",end="")
-  for k in range(i):
-    if k==0 or k==i-1:
-      print("* ",end="")
-    else:
-      print("  ",end="")
-  print()
+
+# for i in range(2,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     if k==0 or k==i-1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   for l in range(n-i):
+#     print("  ",end="")
+#   for m in range(i):
+#     if m==0 or m==i-1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+##########strings questions
+
