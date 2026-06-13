@@ -3754,3 +3754,236 @@
 #   print()
 
 
+
+
+
+''' continuous number pattern
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+'''
+
+
+# n=int(input("enter n:"))
+# num=1
+# for i in range(1,n+1):
+#   for j in range(i):
+#     print(num ,end=" ")
+#     num+=1
+#   print()
+
+
+
+
+
+
+'''reverse continuous  number pattern
+1 2 3 4 5 
+6 7 8 9 
+10 11 12 
+13 14 
+15 
+'''
+
+# n=int(input("enter n:"))
+# num=1
+# for i in range(n,0,-1):
+#   for j in range(i):
+#     print(num ,end=" ")
+#     num+=1
+#   print()
+
+
+
+
+
+
+''' charecter triangle
+A 
+B C 
+D E F 
+G H I J 
+K L M N O 
+'''
+# n=int(input("enter n:"))
+# ch=65
+# for i in range(1,n+1):
+#   for j in range(i):
+#     print(chr(ch),end=" ")
+#     ch+=1
+#   print()
+
+
+
+
+
+''' charecter pyramid
+        A 
+      B C D 
+    E F G H I 
+  J K L M N O P 
+Q R S T U V W X Y 
+'''
+# n=int(input("enter n:"))
+# ch=65
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print(chr(ch),end=" ")
+#     ch+=1
+#   print()
+
+
+
+
+
+
+
+''' charecter reverse pyramid
+A B C D E F G H I 
+  J K L M N O P 
+    Q R S T U 
+      V W X 
+        Y 
+'''
+
+# n=int(input("enter n:"))
+# ch=65
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print(chr(ch),end=" ")
+#     ch+=1
+#   print()
+
+
+
+
+
+
+
+
+
+'''number hourglass
+0 1 2 3 4 
+ 0 1 2 3 
+  0 1 2 
+   0 1 
+    0 
+   0 1 
+  0 1 2 
+ 0 1 2 3 
+0 1 2 3 4 
+'''
+
+# n=int(input("enter n:"))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     print(k,end=" ")
+#   print()
+# for i in range(2,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(i):
+#     print(k,end=" ")
+#   print()
+  
+  
+  
+  
+
+
+
+
+
+'''pascal triangle
+        1   
+      1   1   
+    1   2   1   
+  1   3   3   1   
+1   4   6   4   1 
+'''
+
+# n = int(input("Enter n: "))
+
+# for i in range(n):
+#     num = 1
+#     for j in range(n - i - 1):
+#         print(" ", end=" ")
+#     for j in range(i + 1):
+#         print(num, end="   ")
+#         num = num * (i - j) // (j + 1)
+#     print()
+
+
+
+
+ 
+ 
+ 
+'''Triangular multiplication
+1 
+2 4 
+3 6 9 
+4 8 12 16 
+5 10 15 20 25 
+'''
+
+# n = int(input("Enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print(i*j,end=" ")
+#   print()
+
+
+
+
+
+
+'''alternate binary pattern
+0 
+1 0 
+0 1 0 
+1 0 1 0 
+0 1 0 1 0 
+'''
+
+# n = int(input("Enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print((i+j)%2,end=" ")
+#   print()
+
+
+
+
+
+
+
+n = int(input("Enter n: "))
+for i in range(n,0,-1):
+  for j in range(n-i):
+    print(" ",end="")
+  for k in range(i):
+    if k==0 or k==i-1:
+      print("* ",end="")
+    else:
+      print("  ",end="")
+  print()
+  
+  
+for i in range(2,n+1):
+  for j in range(n-i):
+    print(" ",end="")
+  for k in range(i):
+    if k==0 or k==i-1:
+      print("* ",end="")
+    else:
+      print("  ",end="")
+  print()

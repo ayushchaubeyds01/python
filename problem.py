@@ -234,9 +234,13 @@ Continuous number pattern
 Reverse continuous pattern
 Character reverse pyramid
 Number hourglass
-Pascal variation
 Triangular multiplication
+
+
 Complex custom mixed pattern
+
+
+
 Number triangle
 Number pyramids.
 Floyd triangle
