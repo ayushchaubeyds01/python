@@ -4026,3 +4026,6 @@ A B C D E F G H I
 
 ##########strings questions
 
+
+
+#reverse a string

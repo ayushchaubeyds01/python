@@ -99,3 +99,119 @@
 
 
 
+# to sort it
+# names=[]
+# with open ("names.csv") as file:
+#     for line in file:
+#         name,house=line.rstrip().split(",")
+#         student={"name":name,"house":house}
+#         names.append(student)
+# def get_name(student):
+#     return student ["name"]
+# for student in sorted(names ,key=get_name):
+#     print(f"{student['name']} is in {student['house']}")
+
+
+# to reverse sort it
+# names=[]
+# with open ("names.csv") as file:
+#     for line in file:
+#         name,house=line.rstrip().split(",")
+#         student={"name":name,"house":house}
+#         names.append(student)
+# def get_name(student):
+#     return student ["name"]
+# for student in sorted(names ,key=get_name,reverse=True):
+#     print(f"{student['name']} is in {student['house']}")
+
+
+
+
+
+
+# we can do it using a lambda function
+# names=[]
+# with open ("names.csv") as file:
+#     for line in file:
+#         name,house=line.rstrip().split(",")
+#         student={"name":name,"house":house}
+#         names.append(student)
+
+# for student in sorted(names ,key=lambda student:student["name"]):
+#     print(f"{student['name']} is in {student['house']}")
+
+
+
+
+
+
+
+# we can do all this readings of csv files using a module
+# import csv
+# students=[]
+# with open ("names.csv") as file:
+#     reader=csv.reader(file)
+#     for name ,home in reader:
+#         students.append({"name":name ,"home":home})
+# for student in sorted(students ,key=lambda student:student["name"]):
+#     print(f"{student['name']} is from {student['home']}")
+
+
+
+# instead of it we can use a dictionary reader 
+# import csv
+# students=[]
+# with open ("names.csv") as file:
+#     reader=csv.DictReader(file)
+#     for row in reader:
+#         students.append({"name":row["name"],"home":row["home"]})
+# for student in sorted(students ,key=lambda student:student["name"]):
+#     print(f"{student['name']} is from {student['home']}")
+
+
+# or it can be like this because a dictionary already exists in the name of row
+
+# import csv
+# students=[]
+# with open ("names.csv") as file:
+#     reader=csv.DictReader(file)
+#     for row in reader:
+#         students.append(row)
+# for student in sorted(students ,key=lambda student:student["name"]):
+#     print(f"{student['name']} is from {student['home']}")
+
+
+
+# now we can write a csv file
+
+# import csv
+# name=input("enter:")
+# home=input("enter:")
+# with open ("names.csv","a") as file:
+#     writer=csv.writer(file)
+#     writer.writerow([name,home])
+
+
+# now here we can also use dictonary writter
+# import csv
+# name=input("enter:")
+# home=input("enter:")
+# with open ("names.csv","a") as file:
+#     writer=csv.DictWriter(file,fieldnames=["name","home"])
+#     writer.writerow({"name":name,"home":home})
+
+
+
+
+
+# not just we can open read or write text formats files we can create gif files , images ,videos etc
+# import sys 
+# from PIL import Image
+# images=[]
+# for arg in sys.argv[1:]:
+#     image=Image.open(arg)
+#     images.append(image)
+    
+# images[0].save(
+#     "costumes.gif",save_all=True ,append_images=[images[1]] ,duration=200 ,loop=0
+# )
