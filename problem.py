@@ -461,33 +461,6 @@ Merge intervals basic
 
 
 
-7. Projects (MOST IMPORTANT)
-
-
-
-These combine everything.
-
-Calculator
-Quiz app
-Guessing game
-Hangman
-Password generator
-To-do app
-Expense tracker
-Student management system
-Banking system
-Library management
-Contact book
-Tic Tac Toe
-Snake game
-File organizer
-Weather app
-Web scraper
-PDF merger
-Automation scripts
-Chatbot basic
-Data analysis mini project
-
 
 Basic Tuple Questions
 Create a tuple with 5 elements.
@@ -751,5 +724,46 @@ Recursive bubble sort.
 Generate power set.
 String subsequences.
 Recursive Pascal Triangle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Projects (MOST IMPORTANT)
+
+
+
+These combine everything.
+
+Calculator
+Quiz app
+Guessing game
+Hangman
+Password generator
+To-do app
+Expense tracker
+Student management system
+Banking system
+Library management
+Contact book
+Tic Tac Toe
+Snake game
+File organizer
+Weather app
+Web scraper
+PDF merger
+Automation scripts
+Chatbot basic
+Data analysis mini project
 
 '''

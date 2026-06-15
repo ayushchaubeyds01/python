@@ -4029,3 +4029,61 @@ A B C D E F G H I
 
 
 #reverse a string
+# s=input("enter string:")
+# print(s[::-1])
+
+
+#palindrome string
+# s=input("enter string:")
+# b=s[::-1]
+# if b==s:
+#   print("it is palindrome")
+# else:
+#   print(" it is not a palindrome")
+
+
+
+
+
+#count vowels
+# s=input("enter string:")
+# count=0
+# for ch in s:
+#   if ch in "aeiou":
+#     count+=1
+# print(count)
+
+
+# #count consonents
+# s=input("enter string:")
+# count=0
+# for ch in s:
+#   if ch not in "aeiou":
+#     count+=1
+# print(count)
+
+
+
+# #count spaces
+# s=input("enter string:")
+# count=0
+# for ch in s:
+#   if ch in " ":
+#     count+=1
+# print(count)
+
+
+
+# #count words
+# s=input("enter string:")
+# print(len(s))
+
+
+
+# #count frequency of characters
+# s="o o o i"
+# print(s.count("o"))
+# print(s.count("i"))
+
+
+
