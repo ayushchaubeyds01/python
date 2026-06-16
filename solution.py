@@ -4087,3 +4087,76 @@ A B C D E F G H I
 
 
 
+# #remove duplicates
+# s="python programming"
+# print(s.replace(" ","."))
+
+
+
+
+# # capitalize word
+# n="ayush"
+# print(n.capitalize())
+
+
+
+
+
+
+# #toggle case
+# a="PyThOn"
+# print(a.swapcase())
+
+
+
+
+
+
+# # Check anagram - same characters with same frequency
+# s1=input("enter :")
+# s2=input("enter :")
+# if sorted(s1)==sorted(s2):
+#   print("it is anagram")
+# else:
+#   print("it is not")
+
+
+
+
+
+
+
+# #largest word
+# s1=input("enter :")
+# s2=input("enter :")
+# if len(s1)>len(s2):
+#   print("s1 is largest")
+# else:
+#   print("s2 is largest")
+
+
+
+
+
+# #smallest word
+# s1=input("enter :")
+# s2=input("enter :")
+# if len(s1)<len(s2):
+#   print("s1 is smallest")
+# else:
+#   print("s2 is smallest")
+
+
+
+
+
+
+## Sort characters
+# s1=input("enter :")
+# s2=sorted(s1)
+# print(s2)
+
+
+
+
+
