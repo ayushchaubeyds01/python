@@ -254,57 +254,106 @@ Binary pattern
 Goal:
 
 
-Reverse string
-Palindrome string
-Count vowels
-Count consonants
-Count spaces
-Count words
-Find frequency of characters
-Remove duplicates
-Replace spaces
-Capitalize words
-Toggle case
-Check anagram
-Find largest word
-Find smallest word
-Sort characters
-Remove vowels
-Remove special characters
-String compression
-Expand compressed string
-Count uppercase/lowercase
-First non-repeating character
-First repeating character
-Longest word
-Longest substring without repetition
-Most frequent character
-Least frequent character
-Check rotation
-Reverse words
-Remove extra spaces
-Convert snake_case to camelCase
-Count substring occurrence
-Manual split function
-Manual join function
-Check pangram
-Find duplicate characters
-Lexicographic comparison
-ASCII difference pattern
-Character histogram
-Generate all substrings
-Generate permutations
-Count palindrome substrings
-Longest palindrome substring
-Caesar cipher
-Encryption/decryption basic
-Email validator basic
-Password strength checker
-URL parser basic
-Roman numeral converter
-Balanced parentheses
-Expression validator
+20 Basic String Questions
+Find the length of a string.
+Count the number of vowels in a string.
+Count the number of consonants in a string.
+Count the occurrences of a specific character.
+Convert a string to uppercase.
+Convert a string to lowercase.
+Reverse a string.
+Check whether a string is a palindrome.
+Remove all spaces from a string.
+Replace all occurrences of one character with another.
+Find the first occurrence of a character.
+Find the last occurrence of a character.
+Check if a string starts with a given prefix.
+Check if a string ends with a given suffix.
+Count words in a sentence.
+Extract the first and last character of a string.
+Toggle the case of each character.
+Remove all digits from a string.
+Check whether two strings are equal.
+Print each character of a string on a new line.
 
+
+
+
+
+30 Intermediate String Questions
+
+
+
+
+Check whether two strings are anagrams.
+Find the frequency of every character.
+Find the most frequent character.
+Remove duplicate characters while preserving order.
+Find the first non-repeating character.
+Find the first repeating character.
+Count uppercase and lowercase letters separately.
+Check if a string contains only digits.
+Check if a string contains only alphabets.
+Check if a string contains only alphanumeric characters.
+Capitalize the first letter of every word.
+Reverse the order of words in a sentence.
+Sort characters in a string alphabetically.
+Find the longest word in a sentence.
+Find the shortest word in a sentence.
+Count the frequency of each word.
+Remove punctuation from a sentence.
+Compress a string (e.g., aaabb → a3b2).
+Expand a compressed string (a3b2 → aaabb).
+Check whether one string is a rotation of another.
+Find all duplicate characters.
+Find all unique characters.
+Find the second most frequent character.
+Remove consecutive duplicate characters.
+Convert snake_case to camelCase.
+Convert camelCase to snake_case.
+Find the longest common prefix among strings.
+Check whether two strings differ by exactly one character.
+Find all substrings of a string.
+Find all possible prefixes and suffixes.
+
+
+
+
+30 Hard String Questions
+
+
+
+
+Find the longest palindromic substring.
+Find the longest palindromic subsequence.
+Implement the KMP pattern matching algorithm.
+Implement Rabin-Karp string matching.
+Implement the Z Algorithm.
+Find all occurrences of a pattern in a text.
+Find the smallest window containing all characters of another string.
+Find the longest substring without repeating characters.
+Find the longest substring with exactly K unique characters.
+Find the longest common substring of two strings.
+Find the longest common subsequence.
+Find the edit distance between two strings.
+Check if a string can be rearranged into a palindrome.
+Group a list of words into anagram groups.
+Generate all permutations of a string.
+Generate all combinations of characters.
+Find the minimum insertions needed to make a string a palindrome.
+Find the minimum deletions needed to make a string a palindrome.
+Find the minimum window substring.
+Implement wildcard pattern matching (* and ?).
+Implement regular expression matching.
+Find the lexicographically smallest rotation of a string.
+Count distinct substrings.
+Find the longest repeating substring.
+Find the shortest uncommon subsequence.
+Check whether two strings are isomorphic.
+Find the number of palindromic substrings.
+Decode nested strings (e.g., 3[a2[b]]).
+Find the shortest palindrome by adding characters.
+Build and use a Trie for efficient string searching.
 
 
 

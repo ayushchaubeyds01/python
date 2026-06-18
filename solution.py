@@ -4160,3 +4160,102 @@ A B C D E F G H I
 
 
 
+
+# # Convert a string to uppercase.
+# string=input("enter str:")
+# print(string.upper())
+
+
+# convert in lowercase
+# string=input("enter str:")
+# print(string.lower())
+
+
+
+
+# # remove spaces
+# string=input("enter str:")
+# print(string.strip())
+
+
+
+
+
+# # Replace all occurrences of one character with another.
+# string=input("enter str:")
+# print(string.replace("a","p"))
+
+
+
+
+# # Find the first occurrence of a character.
+# s=input("enter s:")
+# print(s.find("o"))
+
+
+
+
+
+# # Find the last occurrence of a character.
+# s=input("enter s:")
+# print(s.rfind("o"))
+
+
+
+
+# # Check if a string starts with a given prefix.
+# s=input("enter s:")
+# if s.startswith("my"):
+#   print("yes")
+# else:
+#   print("no")
+
+
+
+# # Check if a string ends with a given suffix.
+# s=input("enter s:")
+# if s.endswith("car"):
+#   print("yes")
+# else:
+#   print("no")
+
+
+
+
+# # Extract the first and last character of a string.
+# s=input("enter s:")
+# print(len(s))
+# print(s[0])
+# print(s[4])
+
+
+
+
+# Check whether two strings are equal.
+# s1=input("enter s:")
+# s2=input("enter s:")
+# if len(s1)==len(s2):
+#   print("equal")
+# else:
+#   print("not equal")
+
+
+
+
+
+# # Print each character of a string on a new line.
+# s1=input("enter s:")
+# for ch in s1:
+#   print(ch)
+
+
+
+
+
+# # Remove all digits from a string.
+# s1=input("enter s:")
+# for ch in s1:
+#   if ch.isalpha():
+#     print(ch)
+
+
