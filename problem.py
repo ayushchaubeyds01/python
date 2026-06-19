@@ -1,21 +1,8 @@
-'''Complete Topic-wise Python Practice Roadmap
-
-This amount of practice is enough to build:
-
-strong concepts
-logical thinking
-coding fluency
-problem-solving ability
-
-if you solve them properly yourself.
+'''
 
 1. Variables, Input, Output (25 Questions)
 
-Goal:
 
-syntax comfort
-understanding data flow
-basic calculations
 
 
 Questions
@@ -50,15 +37,7 @@ Calculate percentage of 5 subjects.
 
 2. Conditionals (40 Questions)
 
-Goal
-decision-making logic
-branching
-analytical thinking
-
-
-
-Questions
-Even or odd.
+.
 Positive, negative, zero.
 Largest of two numbers.
 Largest of three numbers.
@@ -814,5 +793,17 @@ PDF merger
 Automation scripts
 Chatbot basic
 Data analysis mini project
+stone paper scissor game
+
+
+
+
+
+
+
+
+
+
+
 
 '''
