@@ -105,6 +105,11 @@
 
 
 
+
+
+
+
+
 ### now let's create a class 
 # class Student:
 #     ...
@@ -121,6 +126,8 @@
 
 
 # or we can do this without creating an object
+
+
 # class Student:
 #     ...
 # def main ():
@@ -137,53 +144,24 @@
 
 
 
+## or we can do this like this
 
-
-
-
-
-
-
-
-
-
-
-# now let's move on to class methods
-''' 1 __init__ =  __init__ is a function that automatically runs when you
- create an object and gives that object its starting values.'''
 # class Student:
-#     def __init__(self,name,house):
-#         self.name=name
-#         self.house=house
-# def main():
+#     ...
+# def main ():
 #     student=get_student()
-#     print(f"{student.name} from {student.house}")
+#     print(f"{student.name} is from {student.house}")
 # def get_student():
-#     name=input("name: ")
-#     house=input("house: ")
+#     name=input("name:")
+#     house=input("house:")
 #     return Student(name,house)
 # if __name__=="__main__":
 #     main()
 
 
-# but what if user provided wrong input then we can raise error 
-# class Student:
-#     def __init__(self,name,house):
-#         if not name:
-#             raise ValueError("missing name")
-#         if not house:
-#             raise ValueError("missing house")
-#         self.name=name
-#         self.house=house
-# def main():
-#     student=get_student()
-#     print(f"{student.name} from {student.house}")
-# def get_student():
-#     name=input("name: ")
-#     house=input("house: ")
-#     return Student(name,house)
-# if __name__=="__main__":
-#     main()
+
+
+
 
 
 
