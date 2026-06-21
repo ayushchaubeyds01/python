@@ -187,4 +187,149 @@
 
 ############   *args and **kwargs
 
+'''
+when we tried to pass extra arguements previously it shows a type error to resolve this wwe use 
+*args = returns list/tuple
+**kwargs= returns dict'''
 
+
+# def f(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+# f(100,50 ,45,67)  # we can give as many values / positional arguement          -> this gives list/tuple
+# f(galleons=100 , sickles=50)  #  we can give as many values / variable arguement -> this gives dictionary
+
+ ### a very perfect example is the print() function which can have as many positional arguements or variable arguements
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+## map a function comes in functional programming paradigm  used to apply a function on each item in that collection
+
+
+
+
+# def main():
+#     yell("this","is","cs50")
+# def yell(*words):
+#     uppercased=map(str.upper,words)
+#     print(*uppercased)
+# if __name__=="__main__":
+#     main()
+
+
+
+
+## list comprehension
+# above problem can be solved using list comprehension
+# def main ():
+#     yell("this","is","cs50")
+# def yell(*words):
+#     uppercased=[word.upper() for word in words]
+#     print(*uppercased)
+# if __name__=="__main__":
+#     main()
+
+
+# @@ another example 
+
+
+# students=[
+#     {"name":"hermione","house":"gryffindor"},
+#     {"name":"harry","house":"gryffindor"},
+#     {"name":"ron","house":"slytherine"},
+#     {"name":"draco","house":"ravenclaw"},
+    
+# ]
+# gryffindors=[
+#     student["name"] for student in students if student["house"]=="gryffindor"
+# ]
+# for gryffindor in sorted(gryffindors):
+#     print(gryffindor)
+
+
+
+
+
+## we can do this using a function called filter which filters out the output based on given conditions
+# students=[
+#     {"name":"hermione","house":"gryffindor"},
+#     {"name":"harry","house":"gryffindor"},
+#     {"name":"ron","house":"slytherine"},
+#     {"name":"draco","house":"ravenclaw"},
+    
+# ]
+
+# def is_gryffindor(s):
+#     return s["house"]=="gryffindor"
+# gryffindors=filter(is_gryffindor,students)
+# for gryffindor in (gryffindors):
+#     print(gryffindor)
+
+
+
+
+
+######### as list comperhension we can do dictionary comprehension
+
+# students=["hermione", "harry","ron"]
+# # gryffindors=[{"name":student , "house":"gryffindor"} for student in students] # it is list comp.
+# gryffindors={student:"gryffindor" for student in students}    ## dict comprehensions
+# print(gryffindors)
+
+
+
+
+
+
+
+
+##### ennumrate
+
+
+# students=["hermione", "harry","ron"]
+# for i , student in enumerate(students):
+#     print(i+1,student)
+
+
+
+
+
+
+
+
+
+###########  generators - gives one value  at once instead of giving whole value at once
+
+# def main():
+#     n=int(input("n: "))
+#     for s in sheep(n):
+#         print(s)
+# def sheep(n):
+#     flock=[]
+#     for i in range(n):
+#         flock.append("🐏"*i)
+#     return flock
+# if __name__=="__main__":
+#     main()
+
+
+
+## but this code won't work for larger memory it gives MemoryError because it gives all value at a time 
+# so we use generators by a new ketword called yield
+
+
+# def main():
+#     n=int(input("n: "))
+#     for s in sheep(n):
+#         print(s)
+# def sheep(n):
+#     for i in range(n):
+#         yield "🐏"*i   # this gives one value at a time
+# if __name__=="__main__":
+#     main()
