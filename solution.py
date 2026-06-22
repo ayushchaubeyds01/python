@@ -4262,3 +4262,313 @@ A B C D E F G H I
 
 
 
+
+
+
+# name=input("enter name:")
+# print(name)
+
+# a=4
+# b=3
+# print(a+b)
+
+# a=4
+# b=3
+# print(a*b)
+
+
+# a=5
+# b=4
+# c=6
+# print(a+b+c)/3
+
+
+# a=5
+# b=6
+# c=a
+# a=b
+# b=c
+# print(a)
+# print(b)
+
+# a=5
+# b=6
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a)
+# print(b)
+
+
+# c=float(input("enter c "))
+# f=(9/5)*c+32
+# print(f)
+
+
+
+
+## conditionals
+
+
+# n=int(input("enter n: "))
+# if n>0:
+#   print("pos")
+# elif(n==0):
+#   print("0")
+# else:
+#   print("neg")
+
+
+
+
+
+# n1=int(input("enter n: "))
+# n2=int(input("enter n: "))
+# if n1>n2:
+#   print("n1 is largest")
+# else:
+#   print("n2 is largest")
+  
+
+
+
+# n1=int(input("enter n: "))
+# n2=int(input("enter n: "))
+# n3=int(input("enter n: "))
+# if n1>n2 and n1>n3:
+#   print("n1 is largest")
+# elif n2>n1 and n2>n3:
+#   print("n2 is largest")
+# else:
+#   print("n3 is largest")
+
+
+
+
+# n1=int(input("enter n: "))
+# n2=int(input("enter n: "))
+# n3=int(input("enter n: "))
+# if n1<n2 and n1<n3:
+#   print("n1 is smallest")
+# elif n2<n1 and n2<n3:
+#   print("n2 is smallest")
+# else:
+#   print("n3 is smallest")
+
+
+
+# n1=int(input("enter n: "))
+# print("yes" if n1%5==0 else "no")
+
+
+
+# n1=int(input("enter n: "))
+# print("yes" if n1%5==0 and n1%11==0 else "no")
+
+
+# n1=int(input("enter n: "))
+# print("yes" if n1%3==0 and n1%17==0 else "no")
+
+
+
+# n1=int(input("enter n: "))
+# print("yes" if n1%4==0 and n1%100!=0 else "no")
+
+
+
+# vowel="a",'e','i','o','u'
+# ch=input("enter ch: ")
+# if ch in vowel:
+#   print("it is vowel")
+# else:
+#   print("consonent")
+
+
+
+
+# ch=input("enter ch: ")
+# if ch.isalpha():
+#   print("it is alphabet")
+# elif(ch.isdigit()):
+#   print("it is digit")
+# else:
+#   print("special character")
+
+
+
+# ch: str=input("enter ch: ")
+# if ch.isupper() and ch.isalpha():
+#   print("it is uppercase")
+# else:
+#   print("it is lowercase")
+
+
+
+# marks=int(input("enter marks: "))
+# if marks>=90:
+#   print("O")
+# elif(75<marks<=89):
+#   print("a")
+# elif(45<marks<=74):
+#   print("b")
+# elif(33<marks<=44):
+#   print("c")
+# else:
+#   print("f")
+
+
+# price=int(input("enter price: "))
+# profit=int(input("enter profit amt: "))
+# if profit>price:
+#   print("it has profit")
+# else:
+#   print("loss")
+
+
+###### loops 
+
+# for _ in range(1,101):
+#   print(_)
+
+
+
+# for _ in range(100,0,-1):
+#   print(_)
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   if i%2==0:
+#     print(i)
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   if i%2!=0:
+#     print(i)
+
+
+
+
+
+
+# n=int(input("enter n: "))
+# sum=0
+# for i in range((n)+1):
+#   digit=n%10
+#   sum+=digit
+#   n//=10
+# print(sum)
+
+
+
+
+# n=int(input("enter n: "))
+# b=str(n)
+# product=1
+# for i in range(len(b)):
+#   digit=n%10
+#   product*=digit
+#   n//=10
+# print(product)
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   print(n*i)
+
+
+
+
+# n=int(input("enter n: "))
+# fact=1
+# for i in range(1,n+1):
+#   fact*=i
+# print(fact)
+
+
+
+# n=int(input("enter n: "))
+# p=int(input("enter p: "))
+# for i in range(1,n+1):
+#   power=pow(n,p)
+# print(power)
+
+
+
+# n=int(input("enter n: "))
+# a,b=0,1
+# for i in range(1,n+1):
+#   print(a)
+#   a,b=b,a+b
+
+
+
+# n=int(input("enter n: "))
+# count=0
+# b=len(str(n))
+# for i in range(1,b+1):
+#   count+=1
+# print(count)
+
+
+
+# n=int(input("enter n: "))
+# sum=0
+# for i in range(1,n+1):
+#   sum+=n%10
+#   n//=10
+# print(sum)
+
+
+
+
+# n=int(input("enter n: "))
+# sum=0
+# b=len(str(n))
+# for i in range(1,b+1):
+#   sum+=n%10
+#   n//=10
+# print(sum)
+
+
+
+
+# n=int(input("enter n: "))
+# rev=0
+# for i in range(1,len(str(n))+1):
+#   rev=rev*10+(n%10)
+#   n//=10
+# print(rev)
+
+
+
+
+
+# n=int(input("enter n: "))
+# temp=n
+# rev=0
+# for i in range(1,len(str(n))+1):
+#   rev=rev*10+(temp%10)
+#   temp//=10
+# if rev==n:
+#   print("it is palindrome")
+# else:
+#   print("it is not")
+
+
+
+
+
+
+
+
+# for i in range(5+1):
+#   print("*"*i)
+
+
+# for i in range(5,0,-1):
+#   print("*"*i)

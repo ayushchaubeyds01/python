@@ -79,15 +79,7 @@ Check if year is century year.
 
 
 
-3. Loops (60 Questions)
-
-Goal:
-
-raw logic development
-thinking step-by-step
-mastery over iteration
-Basic
-
+3. Loops (90 Questions)
 
 
 Print 1–100.
@@ -122,12 +114,6 @@ Find nth prime.
 Sieve of Eratosthenes basic.
 Co-prime check.
 Rock-paper-scissors winner logic
-
-
-
-Loop Logic Problems
-
-
 Sum of even digits.
 Product of odd digits.
 Largest digit.
@@ -138,28 +124,12 @@ Decimal to binary.
 Decimal to octal.
 Decimal to hexadecimal.
 Check spy number.
-
-
-
-
-
-Series Problems
-
-
-
-
-
 Sum of squares.
 Sum of cubes.
 Harmonic series.
 Geometric progression.
 Arithmetic progression.
-
-
-
 Pattern-based series.
-
-
 Alternating sum series.
 Exponential series.
 Find nth Fibonacci.
@@ -168,12 +138,7 @@ Pascal triangle row sum.
 
 
 
-4. Patterns (40 Questions)
-
-Goal:
-
-strongest beginner logic builder
-Questions
+4. Patterns 
 
 
 Nested star patterns.
@@ -213,12 +178,6 @@ Reverse continuous pattern
 Character reverse pyramid
 Number hourglass
 Triangular multiplication
-
-
-Complex custom mixed pattern
-
-
-
 Number triangle
 Number pyramids.
 Floyd triangle
@@ -228,12 +187,16 @@ Binary pattern
 
 
 
-5. Strings (50 Questions)
+5. Strings (80 Questions)
 
 Goal:
 
 
 20 Basic String Questions
+
+
+
+
 Find the length of a string.
 Count the number of vowels in a string.
 Count the number of consonants in a string.
