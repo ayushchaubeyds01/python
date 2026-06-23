@@ -4974,3 +4974,219 @@ A B C D E F G H I
 
 
 
+###########  functions
+
+# # Function to add two numbers.
+# def main():
+#   a=int(input("enter a :"))
+#   b=int(input("enter b :"))
+#   print(add(a,b))
+# def add(x,y):
+#   return x+y
+# if __name__=="__main__":
+#   main()
+
+
+
+# # Function to find maximum of two numbers.
+# def main():
+#   a=int(input("enter a :"))
+#   b=int(input("enter b :"))
+#   print(maxm(a,b))
+# def maxm(x,y):
+#   return max(x,y)
+# if __name__=="__main__":
+#   main()
+
+
+
+
+# # Function to check even/odd.
+# def main():
+#   a=int(input("enter a :"))
+#   print(even_odd(a))
+# def even_odd(x):
+#   return "Even" if x%2==0 else "odd"
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to calculate square.
+# def main():
+#   a=int(input("enter a :"))
+#   print(square(a))
+# def square(x):
+#   return pow(x,2)
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to calculate cube.
+# def main():
+  # a=int(input("enter a :"))
+#   print(cube(a))
+# def cube(x):
+#   return pow(x,3)
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to find factorial.
+# def main():
+#   a=int(input("enter a :"))
+#   print(fact(a))
+# def fact(x):
+#   fact=1
+#   for i in range(1,x+1):
+#     fact*=i
+#   return fact
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+
+# # Function to find sum of digits.
+# def main():
+#   a=int(input("enter a: "))
+#   print(add(a))
+# def add(x):
+#   sum=0
+#   for i in range(1,x+1):
+#     digit=x%10
+#     sum+=digit
+#     x//=10
+#   return sum
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+
+# # Function to reverse a number.
+# def main():
+#   a=int(input("enter a:"))
+#   print(rev(a))
+# def rev(x):
+#   rev=0
+#   for i in range(1,len(str(x+1))):
+#     digit=x%10
+#     rev=(rev*10)+digit
+#     x//=10
+#   return rev
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to count digits.
+# def main():
+#   a=int(input("enter a:"))
+#   print(count(a))
+# def count(x):
+#   count=0
+#   for i in range(1,len(str(x))):
+#     count+=i
+#   return count
+# if __name__=="__main__":
+#   main()
+
+
+
+# # Function to check palindrome.
+# def main():
+#   a=int(input("enter a:"))
+#   print(is_pal(a))
+# def is_pal(x):
+#   rev=0
+#   org=x
+#   for i in range(1,len(str(x))+1):
+#     digit=org%10
+#     rev=(rev*10)+digit
+#     org//=10
+#   return "yes" if rev==x else "no"
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to check leap year.
+# def main():
+#   a=int(input("enter a:"))
+#   print(is_leap(a))
+# def is_leap(x):
+#   return "yes " if x%4==0 and x%1000!=0 or x%400==0 else "no"
+# if __name__=="__main__":
+#   main()
+
+
+
+
+# # Function to calculate simple interest.
+# def main():
+#   p=int(input("enter p:"))
+#   r=int(input("enter r:"))
+#   t=int(input("enter t:"))
+#   print(is_si(p,r,t))
+# def is_si(x,y,z):
+#   return (x*y*z)/100
+# if __name__=="__main__":
+#   main()
+
+
+
+
+# # Function to calculate area of circle.
+# def main():
+#   r=float(input("enter r: "))
+#   print(area_circle(r))
+# def area_circle(x):
+#   return 3.14*x*x
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to convert Celsius to Fahrenheit.
+# def main():
+#   c=float(input("enter c: "))
+#   print(fah(c))
+# def fah(x):
+#   return (9/5)*x+32
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to find ASCII value of a character.
+# def main():
+#   char=input("enter char:")
+#   print(asc_chr(char))
+# def asc_chr(x):
+#   return ord(x)
+# if __name__=="__main__":
+#   main()
+
+
+
