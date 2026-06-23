@@ -4572,3 +4572,405 @@ A B C D E F G H I
 
 # for i in range(5,0,-1):
 #   print("*"*i)
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     print("*",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(1,i+1):
+#     print("*",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print(" ",end="")
+#   for k in range(1,i+1):
+#     print("*",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+# for i in range(n-1,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     print("* ",end="")
+#   print()
+
+
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print("* ",end="")
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+#   for l in range(1,i+1):
+#     print("* ",end="")
+#   print()
+# for i in range(n-1,0,-1):
+#   for j in range(1,i+1):
+#     print("* ",end="")
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+#   for l in range(1,i+1):
+#     print("* ",end="")
+#   print()
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,n+1):
+#     print("* ",end="")
+#   print()
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     if   i ==n or j==1 or j==i:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(1,i+1):
+#     if j==i or j==1 or i==n:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,i+1):
+#     if k==1 or k==i or i==n:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,i+1):
+#     if k==i or i==n or k==1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if i==1 or i==n or j==n or j==1:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(1,n+1):
+#     if i==1 or i==n or k==1 or k==n:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     if i==1 or i==n or k==2*i-2 or k==0:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+# n=int(input("enter n: "))
+# for i in range(n,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     if i==1 or i==n or k==2*i-2 or k==0:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     if i==1  or k==0 or k==2*i-2:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+# for i in range(n-1,0,-1):
+#   for j in range(n-i):
+#     print("  ",end="")
+#   for k in range(2*i-1):
+#     if i==1 or k==0 or k==2*i-2:
+#       print("* ",end="")
+#     else:
+#       print("  ",end="")
+#   print()
+
+
+
+
+
+
+# n=int(input("enter n: "))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     if j==i or j==1:
+#       print("* ",end="")
+#     else:print("  ",end="")
+    
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+    
+#   for l in range(1,i+1):
+#     if  l==i or l==1:
+#       print("* ",end="")
+#     else:print("  ",end="")
+#   print()
+  
+# for i in range(n-1,0,-1):
+#   for j in range(1,i+1):
+#     if  j==i or j==1:
+#       print("* ",end="")
+#     else:print("  ",end="")
+    
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+    
+#   for l in range(1,i+1):
+#     if  l==i or l==1:
+#       print("* ",end="")
+#     else:print("  ",end="")
+#   print()
+
+
+
+
+
+# Check whether two strings are anagrams. 
+# s2=input("Enter s2: ")
+# if sorted(s1)==sorted(s2):
+#   print("it is anagram")
+# else:
+#   print("it is not an anagram")
+  
+
+
+
+
+
+# # Find the frequency of every character.
+# s=input("Enter s: ")
+# count=0
+# for ch in s:
+#   print(ch,s.count(ch))
+
+
+# # Find the most frequent character.
+# s=input("Enter s: ")
+# max_count=s.count(s[0])
+# max_char=s[0]
+# for ch in s:
+#   if s.count(ch)>max_count:
+#     max_count=s.count(ch)
+#     max_char=ch
+# print(max_char,max_count)
+
+
+
+
+
+
+# Remove duplicate characters 
+# s=input("Enter s: ")
+# my_set=set()
+# for ch in s :
+#   my_set.add(ch)
+# print(my_set)
+
+
+
+
+
+# # Remove duplicate characters while preserving order.
+# s=input("Enter s: ")
+# result=""
+# for ch in s:
+#   if ch not in result:
+#     result+=ch
+# print(result)
+
+
+
+
+# # Find the first non-repeating character.
+# s=input("Enter s: ")
+# result=""
+# for ch in s:
+#   if s.count(ch)==1:
+#     result+=ch
+#     break
+# print(result)
+
+
+
+# # Find the first repeating character.
+# s=input("Enter s: ")
+# result=""
+# for ch in s:
+#   if s.count(ch)>1:
+#     result+=ch
+#     break
+# print(result)
+
+
+
+
+
+# # Count uppercase and lowercase letters separately.
+# s=input("Enter s: ")
+# for ch in s :
+#   if ch.isupper():
+#     print("upper:",ch)
+# for ch in s:
+#   if ch.islower():
+#     print("lower:",ch)
+
+
+
+
+
+
+
+# # Check if a string contains only digits.
+# s=input("Enter s: ")
+# if s.isdigit():
+#   print("all digit")
+# else:
+#   print("no")
+
+
+# # Check if a string contains only alphabets.
+# s=input("Enter s: ")
+# if s.isalpha():
+#   print("all alphabet")
+# else:
+#   print("no")
+
+
+
+# # Check if a string contains only alphanumeric.
+# s=input("Enter s: ")
+# if s.isalnum():
+#   print("all alphanumeric")
+# else:
+#   print("no")
+
+
+
+
+
+
+# # Capitalize the first letter of every word.
+# s=input("Enter s: ")
+# print(s.title())
+
+
+
+
+
+
+# # Sort characters in a string alphabetically.
+# s=input("Enter s: ")
+# print(sorted(s))
+
+
+
+
+
+
+
