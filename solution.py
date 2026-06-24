@@ -5190,3 +5190,71 @@ A B C D E F G H I
 
 
 
+
+
+
+
+## string intermediate questions
+
+
+
+# # Reverse the order of words in a sentence.
+# s=input("enter s:")
+# words=(s.split())
+# print(words[::-1])
+
+
+
+
+
+# # Find the longest word in a sentence.
+# s=input("enter s:").strip()
+# words=(s.split())
+# max_word=(words[0])
+# for word in words :
+#   length=(len(word))
+#   if length>len(max_word):
+#     max_word=word
+# print(max_word)
+# print(len(max_word))
+
+
+
+
+
+# # find shortest word in a sentence
+# s=input("enter s: ").strip()
+# words=s.split()
+# short_word=words[0]
+# for word in words:
+#   length=len(word)
+#   if length<len(short_word):
+#     short_word=word
+# print(short_word)
+# print(len(short_word))
+
+
+
+
+
+# # find the frequency of each word
+# s=input("enter s: ").strip()
+# words=s.split()
+# for word in words:
+#   print(word,words.count(word))
+
+
+
+
+
+
+
+# # Remove punctuation from a sentence.
+# s=input("enter s: ")
+# result=""
+# for ch in s:
+#   if ch not in ",./?';:'":
+#     result+=ch
+# print(result)
+
+
