@@ -5258,3 +5258,48 @@ A B C D E F G H I
 # print(result)
 
 
+
+
+
+
+# # Check whether one string is a rotation of another.
+# s=input("enter s: ")
+# rotation=s[::-1]
+# if rotation==s:
+#   print("yes")
+# else:
+#   print("not")
+
+
+
+
+
+
+# # Find all unique characters.
+# s=input("enter s: ")
+# for word in s :
+#   if s.count(word)==1:
+#     print(word , "is unique")
+#   else:
+#     print(word,"it is not")
+
+
+
+
+
+
+
+# Compress a string (e.g., aaabb → a3b2).
+# s = input("Enter string: ")
+# result = ""
+# count = 1
+# for i in range(len(s)):
+#   if i + 1 < len(s) and s[i] == s[i + 1]:
+#     count += 1
+#   else:
+#     result += s[i] + str(count)
+#     count = 1
+# print(result)
+
+
+
