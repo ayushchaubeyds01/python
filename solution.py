@@ -5289,17 +5289,8 @@ A B C D E F G H I
 
 
 
-# Compress a string (e.g., aaabb → a3b2).
-# s = input("Enter string: ")
-# result = ""
-# count = 1
-# for i in range(len(s)):
-#   if i + 1 < len(s) and s[i] == s[i + 1]:
-#     count += 1
-#   else:
-#     result += s[i] + str(count)
-#     count = 1
-# print(result)
 
 
-
+n=5
+for i in range(1,n+1):
+  print("*"*i)
