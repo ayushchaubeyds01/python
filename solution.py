@@ -5291,6 +5291,12 @@ A B C D E F G H I
 
 
 
-n=5
-for i in range(1,n+1):
-  print("*"*i)
+
+
+# Find all unique characters.
+s=input("enter s: ")
+for word in s :
+  if s.count(word)==1:
+    print(word , "is unique")
+  else:
+    print(word,"it is not")
