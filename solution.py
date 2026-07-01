@@ -5300,3 +5300,41 @@ for word in s :
     print(word , "is unique")
   else:
     print(word,"it is not")
+    
+
+
+
+# Function to find sum of digits.
+def main():
+  a=int(input("enter a: "))
+  print(add(a))
+def add(x):
+  sum=0
+  for i in range(1,x+1):
+    digit=x%10
+    sum+=digit
+    x//=10
+  return sum
+if __name__=="__main__":
+  main()
+
+
+
+
+
+
+# Function to reverse a number.
+def main():
+  a=int(input("enter a:"))
+  print(rev(a))
+def rev(x):
+  rev=0
+  for i in range(1,len(str(x+1))):
+    digit=x%10
+    rev=(rev*10)+digit
+    x//=10
+  return rev
+if __name__=="__main__":
+  main()
+
+
