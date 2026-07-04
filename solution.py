@@ -5340,19 +5340,26 @@ if __name__=="__main__":
 
 
 
-for i in range(1,5):
-  print("*"*i)
-  
-  
-for i in range(6,0,-1):
-  print("*"*i)
-  
-  
 
 
-for i in range(1,5):
-  print("*"*i)
-  
-  
-for i in range(6,0,-1):
-  print("*"*i)
+
+# Check whether one string is a rotation of another.
+s=input("enter s: ")
+rotation=s[::-1]
+if rotation==s:
+  print("yes")
+else:
+  print("not")
+
+
+
+
+
+
+# Find all unique characters.
+s=input("enter s: ")
+for word in s :
+  if s.count(word)==1:
+    print(word , "is unique")
+  else:
+    print(word,"it is not")
