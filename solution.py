@@ -5373,3 +5373,14 @@ for word in s :
     print(word , "is unique")
   else:
     print(word,"it is not")
+    
+  
+  
+    
+# Find all unique characters.
+s=input("enter s: ")
+for word in s :
+  if s.count(word)==1:
+    print(word , "is unique")
+  else:
+    print(word,"it is not")
