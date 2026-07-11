@@ -4944,20 +4944,35 @@ A B C D E F G H I
 
 
 
-n=int(input("enrer n:"))
-for i in range(1,n+1):
-  for j in range(1,i+1):
-    print("* ",end="")
-  for k in range(2*(n-i)):
-    print("  ",end="")
-  for m in range(1,i+1):
-    print("* ",end="")
-  print()
-for i in range(n-1,0,-1):
-  for j in range(1,i+1):
-    print("* ",end="")
-  for k in range(2*(n-i)):
-    print("  ",end="")
-  for m in range(1,i+1):
-    print("* ",end="")
-  print()
+# n=int(input("enrer n:"))
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print("* ",end="")
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+#   for m in range(1,i+1):
+#     print("* ",end="")
+#   print()
+# for i in range(n-1,0,-1):
+#   for j in range(1,i+1):
+#     print("* ",end="")
+#   for k in range(2*(n-i)):
+#     print("  ",end="")
+#   for m in range(1,i+1):
+#     print("* ",end="")
+#   print()
+
+
+
+a=int(input("enter a:"))
+b=len(str((a)))
+sum=0
+org=a
+for i in range(1,b+1):
+  digit=a%10
+  sum+=digit**b
+  a//=10
+if org==sum:
+  print("arm")
+else:
+  print("no")
