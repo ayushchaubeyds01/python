@@ -4978,15 +4978,71 @@ A B C D E F G H I
 #   print("no")
 
 
-a=int(input("enter a:"))
-# b=len(str((a)))
+
+
+
+
+# n=int(input("enter n:"))
+# for _ in range(n,0,-1):
+#   print(_)
+
+
+
+
+
+
+# n=int(input("enter n:"))
 # sum=0
-# org=a
+# for i in range(1,len(str(n))+1):
+#   digit=n%10
+#   sum+=digit
+#   n//=10
+# print(sum)
+
+
+# n=int(input("enter n:"))
+# pro=1
+# for i in range(1,len(str(n))+1):
+#   digit=n%10
+#   pro*=digit
+#   n//=10
+# print(pro)
+
+
+
+# n=int(input("enter n:"))
+# fact=1
+# for i in range(1,n+1):
+#   fact*=i
+# print(fact)
+
+
+
+
+# n=int(input("enter n:"))
+# a,b=0,1
+# for i in range(1,n+1):
+#   print(a)
+#   a,b=b,a+b
+
+
+
+# n=int(input("enter n:"))
+# count=0
+# b=len(str(n))
 # for i in range(1,b+1):
-#   digit=a%10
-#   sum+=digit**b
-#   a//=10
-# if org==sum:
-#   print("arm")
-# else:
-#   print("no")
+#   digit=n%10
+#   count+=1
+# print(count)
+
+
+
+n=int(input("enter n:"))
+count=0
+b=len(str(n))
+for i in range(1,b+1):
+  digit=n%10
+  count+=1
+print(count)
+
+
