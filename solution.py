@@ -4964,15 +4964,29 @@ A B C D E F G H I
 
 
 
+# a=int(input("enter a:"))
+# b=len(str((a)))
+# sum=0
+# org=a
+# for i in range(1,b+1):
+#   digit=a%10
+#   sum+=digit**b
+#   a//=10
+# if org==sum:
+#   print("arm")
+# else:
+#   print("no")
+
+
 a=int(input("enter a:"))
-b=len(str((a)))
-sum=0
-org=a
-for i in range(1,b+1):
-  digit=a%10
-  sum+=digit**b
-  a//=10
-if org==sum:
-  print("arm")
-else:
-  print("no")
+# b=len(str((a)))
+# sum=0
+# org=a
+# for i in range(1,b+1):
+#   digit=a%10
+#   sum+=digit**b
+#   a//=10
+# if org==sum:
+#   print("arm")
+# else:
+#   print("no")
