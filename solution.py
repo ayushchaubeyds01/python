@@ -5050,12 +5050,52 @@ A B C D E F G H I
 #   n//=10
 # print(sum)
 
-n=153
-org=n
-sum=0
-b=len(str(n))
-while n >0:
-  digit=n%10
-  sum+=digit**b
-  n//=10
-print(sum)
+
+
+
+
+
+
+# # function to check prime
+# def main():
+#   n=int(input("enter n:"))
+#   is_prime(n)
+# def is_prime(x):
+#   if x<=1:
+#     print("not prime")
+#   else:
+#     for i in range(2,int(x**0.5)+1):
+#       if x%i==0:
+#         print("not prime")
+#         break
+#     else:
+#       print("prime")
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
+# # Function to print all primes up to n.
+# def main():
+#   n=int(input("enter n:"))
+#   is_prime(n)
+# def is_prime(x):
+#   for i in range(1,x+1):
+#     if i<=1:
+#       print(i,"not prime")
+#     else:
+#       for j in range(2,int(i**0.5)+1):
+#         if i%j==0:
+#           print(i,"not prime")
+#           break
+#       else:
+#         print(i,"prime")
+# if __name__=="__main__":
+#   main()
+
+
+
+
+
