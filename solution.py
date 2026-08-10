@@ -5099,3 +5099,17 @@ A B C D E F G H I
 
 
 
+
+
+# n=int(input("enter n:"))
+# sum=0
+# org=n
+# b=len(str(n))
+# for i in range(1,b+1):
+#   digit=org%10
+#   sum+=digit**b
+#   org//=10
+# if sum==n:
+#   print("it is amstrong number")
+# else:
+#   print("not")

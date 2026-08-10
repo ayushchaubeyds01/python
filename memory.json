@@ -1,0 +1,38 @@
+{
+  "history": [
+    {
+      "cmd": "tell me about srinivasa ramanujan",
+      "time": "2026-08-08 13:29:18.349169"
+    },
+    {
+      "cmd": "open youtube and play python course ",
+      "time": "2026-08-08 13:29:56.111919"
+    },
+    {
+      "cmd": "most preferred post",
+      "time": "2026-08-08 13:30:10.149221"
+    },
+    {
+      "cmd": "help",
+      "time": "2026-08-08 13:30:40.486816"
+    },
+    {
+      "cmd": "tell me about python",
+      "time": "2026-08-09 17:15:12.047733"
+    },
+    {
+      "cmd": "open youtube ",
+      "time": "2026-08-09 17:15:44.115552"
+    },
+    {
+      "cmd": "search python \\",
+      "time": "2026-08-09 17:16:21.821484"
+    }
+  ],
+  "notes": [],
+  "learned": {},
+  "tasks": [],
+  "usage_stats": {},
+  "learning_model": {},
+  "safety_log": []
+}
