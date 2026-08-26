@@ -5113,3 +5113,96 @@ A B C D E F G H I
 #   print("it is amstrong number")
 # else:
 #   print("not")
+
+
+
+
+
+# strings problems 
+
+# # find length of string
+# s=input("str:")
+# print(len(s))
+
+
+
+# # count no of vowels in string
+# vowels='a','e','i','o','u'
+# s=input("str:")
+# count=0
+# for ch in s :
+#   if ch in vowels:
+#     count+=1
+# print(count)
+
+
+# # Count the number of consonants in a string.
+# vowels='a','e','i','o','u'
+# s=input("str:")
+# count=0
+# for ch in s :
+#   if ch not in vowels:
+#     count+=1
+# print(count)
+
+
+
+
+
+# # Count the occurrences of a specific character.
+# char=input("enter char:")
+# s=input("str:")
+# occurance=0
+# for ch in s:
+#   if char==ch:
+#     occurance+=1
+# print(occurance)
+
+
+
+# # Convert a string to uppercase.
+# s=input("str:")
+# print(s.upper())
+
+
+
+# # Convert a string to lowercase.
+# s=input("str:")
+# print(s.lower())
+
+
+
+# # reverse a string
+# s=input("str:")
+# print(s[::-1])
+
+
+# # check palindrome
+# s=input("str:")
+# if s== s[::-1]:
+#   print("palindrome")
+# else:
+#   print("not")
+
+
+# # remove all spaces 
+# s=input("str:")
+# print(s.strip())
+
+
+
+# # Replace all occurrences of one character with another.
+# s=input("str:")
+# a=input("enter old char")
+# b=input("enter new char")
+# print(s.replace("a","b"))
+
+
+
+
+# # Find the first occurrence of a character.
+# s=input("str:")
+# print(s.find("a"))
+
+
+  # Find the last  occurrence of a character.
