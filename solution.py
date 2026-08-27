@@ -5205,4 +5205,234 @@ A B C D E F G H I
 # print(s.find("a"))
 
 
-  # Find the last  occurrence of a character.
+  # Find the last  occurrence of a character.    # we use rfind to get last occurance
+# s=input("str:")
+# print(s.rfind("a"))
+
+
+# # Check if a string starts with a given prefix.
+# s=input("str:")
+# suffix=input("enter suffix:")
+# if s.endswith(suffix):
+#   print("it is ")
+# else:
+#   print("not")
+
+
+# # Check if a string ends with a given suffix.
+
+# s=input("str:")
+# prefix=input("enter prefix:")
+# if s.startswith(prefix):
+#   print("it is ")
+# else:
+#   print("not")
+
+
+
+
+# # Count words in a sentence.
+# s=input("enter char:")
+# count=0
+# for ch in s:
+#   count+=1
+# print(count)
+
+
+
+
+# # Extract the first and last character of a string.
+# s=input("str:")
+# print(s[0])
+# print(s[-1])
+
+
+
+
+
+# # Toggle the case of each character.
+# s=input("str:")
+# print(s.swapcase())
+
+
+
+
+# # Remove all digits from a string.
+# s=input("str:")
+# for ch in s:
+#   if ch.isalpha():
+#     print(ch,end="")
+
+
+
+
+# # Check whether two strings are equal.
+# s=input("str:")
+# s2=input("str:")
+# if len(s)==len(s2):
+#   print("equal")
+# else:
+#   print("not")
+
+
+
+# # Print each character of a string on a new line.
+# s=input("str:")
+# for ch in s:
+#   print(ch)
+
+
+
+
+
+# # Check whether two strings are anagrams.
+# s=input("str:")
+# s2=input("str:")
+# if sorted(s)==sorted(s2):
+#   print("it is anagram")
+# else:
+#   print("not")
+
+
+
+
+
+
+# # Find the frequency of every character.
+# s=input("enter s:")
+# for ch in s :
+#   print(s.find(ch),ch)
+
+
+
+
+
+# # Find the most frequent character.
+# s=input("str:")
+# count={}
+# for ch in s:
+#   if ch in count:
+#     count[ch]+=1
+#   else:
+#     count[ch]=1
+# max_chr=max(count,key=count.get)
+# print(max_chr)
+
+
+
+
+# # # Remove duplicate characters while preserving order.
+# s=input("enter str:")
+# s2=[]
+# for ch in s :
+#   if ch not in s2:
+#     s2.append(ch)
+# print(s2)
+
+
+
+
+# # Find the first non-repeating character.
+# s=input("str:")
+# count={}
+# for ch in s:
+#   if ch in count:
+#     count[ch]+=1      
+#   else:
+#     count[ch]=1
+# min_chr=min(count,key=count.get)
+# print(min_chr)
+
+
+
+
+# # Find the first reapeting character.
+# s=input("str:")
+# count={}
+# for ch in s:
+#   if ch in count:
+#     count[ch]+=1
+#   else:
+#     count[ch]=1
+# max_chr=max(count,key=count.get)
+# print(max_chr)
+
+
+
+
+
+# # Count uppercase and lowercase letters separately.
+# s=input("enter :")
+# count_upper=0
+# count_lower=0
+# for ch in s:
+#   if ch.isupper():
+#     count_upper+=1
+#   else:
+#     count_lower+=1
+# print(count_lower,count_upper)
+
+
+
+
+# # Check if a string contains only digits.
+# s=input("enter :")
+# for ch in s:
+#   if ch.isdigit():
+#     print("all digit",ch)
+#   else:
+#     print("not all digit",ch)
+
+
+
+
+
+
+
+# # Check if a string contains only alphabets.
+# s=input("enter :")
+# for ch in s:
+#   if ch.isalpha():
+#     print("all alphabet",ch)
+#   else:
+#     print("not all alphabet",ch)
+
+
+
+
+# Check if a string contains only alphanumeric characters.
+# s=input("enter :")
+# for ch in s:
+#   if ch.isalnum():
+#     print("all alphanumeric,ch)
+#   else:
+#     print("not all alphanumeric",ch)
+
+
+
+
+
+# # Capitalize the first letter of every word.
+# s=input("str:")
+# print(s.title())
+
+
+
+
+
+# # Reverse the order of words in a sentence.
+# s=input("str:")
+# s2=[]
+# for ch in s:
+#   s2.append(ch)
+# print(s2)
+
+
+
+
+# # Sort characters in a string alphabetically.
+# s=input("Str:")
+
+# print(sorted(s))
+
+
