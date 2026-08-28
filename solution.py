@@ -5436,3 +5436,177 @@ A B C D E F G H I
 # print(sorted(s))
 
 
+
+
+
+# # Find the longest word in a sentence.
+# s=input("enter :")
+# words=s.split()
+# longest=words[0]
+# for word in words:
+#   if len(word)>len(longest):
+#     longest=word
+# print(longest)
+
+
+
+
+
+# Find the shortest word in a sentence.
+# sentence=input("Str:")
+# words=sentence.split()
+# shortest=words[0]
+# for word in words:
+#   if len(word)<len(shortest):
+#     shortest=word
+# print(shortest)
+
+
+
+
+
+
+# # Count the frequency of each word.
+# sentence=input("str:")
+# words=sentence.split()
+# count={}
+# for word in words:
+#   if word in count:
+#     count[word]+=1
+#   else:
+#     count[word]=1
+# print(count)
+
+
+
+
+
+# # Remove punctuation from a sentence.
+# import string
+# s=input("str:")
+# for ch in string.punctuation:
+#   s=s.replace(ch,"")
+# print(s)
+
+
+
+
+
+
+# # Compress a string (e.g., aaabb → a3b2).
+# s=input("enter :")
+# count=1
+# result=""
+# for i in range(len(s)-1):
+#   if s[i]==s[i+1]:
+#     count+=1
+#   else:
+#     result+=s[i] + str(count)
+#     count=1
+# result+=s[-1]+str(count)
+# print(result)
+
+
+
+
+# # Expand a compressed string (a3b2 → aaabb).
+# s=input("enter :")
+# result=""
+# for i in range(0,len(s),2):
+#   char=s[i]
+#   count=int(s[i+1])
+#   result+=char*count
+# print(result)
+
+
+
+
+# s=input("enters:")
+# count=1
+# result=""
+# for i in range(len(s)-1):
+#   if s[i]==s[i+1]:
+#     count+=1
+#   else:
+#     result+=s[i]+str(count)
+#     count=1
+# result+=s[-1]+str(count)
+# print(result)
+
+
+
+# s=input("enter s:")
+# result=""
+# for i in range(0,len(s),2):
+#   char=s[i]
+#   count=int(s[i+1])
+#   result+=char*count
+# print(result)
+
+
+
+
+
+
+# # Check whether one string is a rotation of another.
+# s1=input("enter s1:")
+# s2=input("enter s2:")
+# if s1[::-1]==s2[::-1]:
+#   print("it is ")
+# else:
+#   print("it is not")
+
+
+
+
+# # Find all duplicate characters.
+# s=input("enter s:")
+# count={}
+# for ch in s :
+#   if ch in count:
+#     count[ch]+=1
+#     if count==1:
+#         print(ch, "is unique")
+#     else:
+#         print(ch,"is duplicate")
+#   else:
+#     count[ch]=1
+  
+
+
+
+# # Find all unique characters.
+# s=input("enter s:")
+# unique=set()
+# for ch in s:
+#   unique.add(ch)
+# print(unique)
+
+
+
+
+
+# # Find the second most frequent character.
+# s=input("enter:")
+# freq={}
+# for ch in s :
+#   if ch in freq:
+#     freq[ch]+=1
+#   else:
+#     freq[ch]=1
+# max_char=max(freq,key=freq.get)
+# del freq[max_char]
+# second_max=max(freq,key=freq.get)
+# print(second_max)
+
+
+
+
+
+# Remove consecutive duplicate characters.
+s=input("enter s :")
+result=""
+for ch in s:
+  if not result or ch!=result[-1]:
+    result+=ch
+print(result)
