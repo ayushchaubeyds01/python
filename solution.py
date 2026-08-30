@@ -5603,10 +5603,43 @@ A B C D E F G H I
 
 
 
-# Remove consecutive duplicate characters.
-s=input("enter s :")
-result=""
-for ch in s:
-  if not result or ch!=result[-1]:
-    result+=ch
-print(result)
+# # Remove consecutive duplicate characters.
+# s=input("enter s :")
+# result=""
+# for ch in s:
+#   if not result or ch!=result[-1]:
+#     result+=ch
+# print(result)
+
+
+
+
+
+# # conver snake_case to camelCase
+# s=input("enter :")
+# words=s.split()
+# for i, word in enumerate(words) :
+#   if i==0:
+#     print(word,end="")
+#   else:
+#     print(word.capitalize(),end="")
+
+
+
+
+
+
+# # Convert camelCase to snake_case.
+# c=input("enter :")
+# results=""
+# for ch in c:
+#   if ch.isupper():
+#     results+="_"
+#     results+=ch.lower()
+#   else:
+#     results+=ch
+# print(results)
+
+
+
+
