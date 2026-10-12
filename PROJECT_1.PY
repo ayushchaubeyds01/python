@@ -13,7 +13,6 @@ DATA_FILE = "memory.json"
 DEBUG = True
 
 # ===== SAFETY =====
-TWILIO_SID = ""
 TWILIO_AUTH = ""
 TWILIO_FROM = ""
 EMERGENCY_CONTACT = "+911234567890"

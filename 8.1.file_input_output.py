@@ -215,3 +215,46 @@
 # images[0].save(
 #     "costumes.gif",save_all=True ,append_images=[images[1]] ,duration=200 ,loop=0
 # )
+
+
+
+
+
+
+
+
+
+
+# practice
+# name=input("enter name:")
+# file= open("names.txt","w")
+# file.write(name)
+# file.close()
+
+
+# name=input("enter n:")
+# file=open("names.txt","a")
+# file.write(f"{name} \n")
+# file.close()
+
+
+# name=input("enter name:")
+# with open("names.txt","a") as file:
+#     file.write(f"{name}\n")
+
+
+
+# with open("names.txt","r" )as file:
+#     lines=file.readlines()
+# for line in lines:
+#     print(f"hello\n",line,end="")
+
+
+
+# with open("names.txt","r") as file:
+#     for line in sorted(file):
+#         print("hello",line,end="")
+
+
+
+
