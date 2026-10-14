@@ -258,3 +258,78 @@
 
 
 
+
+
+# practice
+# # 1
+# with open ("practice.txt","a") as file:
+#     file.write(input("enter name :"))
+
+
+# with open("practice.txt") as file:
+#     content=file.read()
+#     print(content)
+
+
+# with open("names.txt","a") as f:
+#     f.write(input("enter name:"))
+    
+    
+# with open("names.txt") as f:
+#     for line in f:
+#         print(line)
+
+
+# names=[]
+# for _ in range(3):
+#     names.append(input("enter name:"))
+# for name in sorted(names):
+#     print(name)
+
+
+# name=input("enter name:")
+# file=open("college.txt","w")
+# file.write(name)
+# file.close()
+
+
+# name=input("enter name")
+# with open("college.txt","a") as file:
+#     file.write(f"{name} \n")
+
+
+# name=input("enter name:")
+# with open("name.txt","a") as file:
+#     file.write(f"{name}\n")
+
+
+# # to read this file
+# with open("name.txt","r") as file:
+#     for line in sorted(file):
+#         print("hello",line.rstrip())
+        
+# # to sort it in descending order
+# with open("name.txt","r") as file:
+#     for line in sorted(file,reverse=True):
+#         print("hello",line.rstrip())
+        
+
+
+# now csv files
+# name=input("Enter name:")
+# with open("names.csv","a") as file:
+#     file.write(f"{name}\n")
+    
+     
+
+# with open("names.csv") as file :
+#     for line in sorted(file):
+#        row=(line.rstrip().split(","))
+#        print(f"{row[0]} is in {row[1]}")
+
+# we can do this in another way
+with open("names.csv") as file :
+    for line in sorted(file):
+       name,title=(line.rstrip().split(","))
+       student={"name":name,"title":title}
+       print(f"{name} is in {title}")
