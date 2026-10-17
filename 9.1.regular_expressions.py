@@ -133,3 +133,27 @@
 #     print(matches.groups(2))
 
 
+
+
+
+
+
+
+
+# practice
+
+# let's validate an email
+# email=input("enter email:")
+# username,domain=email.split("@")
+# if username and domain in domain:
+#     print("valid")
+# else:
+#     print("not valid")
+    
+    
+
+import re
+if re.search("@","gmail"):
+    print("valid")
+else:
+    print("not valid")

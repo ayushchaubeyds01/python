@@ -327,9 +327,26 @@
 #        row=(line.rstrip().split(","))
 #        print(f"{row[0]} is in {row[1]}")
 
-# we can do this in another way
-with open("names.csv") as file :
-    for line in sorted(file):
-       name,title=(line.rstrip().split(","))
-       student={"name":name,"title":title}
-       print(f"{name} is in {title}")
+# # we can do this in another way
+# with open("names.csv") as file :
+#     for line in sorted(file):
+#        name,title=(line.rstrip().split(","))
+#        student={"name":name,"title":title}
+#        print(f"{name} is in {title}")
+
+
+
+
+
+# with open("intro.txt","a") as file :
+#     file.write("hello python")
+
+
+# with open("intro.txt","r") as file :
+#     for line in file:
+#         print(line.rstrip())
+
+
+# with open("intro.txt","a") as file :
+#     file.write(f"i am learning file handling\n")
+
