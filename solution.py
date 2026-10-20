@@ -5641,6 +5641,31 @@ A B C D E F G H I
 # print(results)
 
 
+# try:
+#   a=int(input("enter a:"))
+#   b=int(input("enter b:"))
+#   result=a/b
+# except ValueError:
+#   print("try integer")
+# except ZeroDivisionError:
+#   print("can't divide  by zero")
+  
+# else:
+#   print(result)
 
 
-print("{ayush}")
+
+# def get_integer():
+#   try:
+#     a=int(input("enter a:"))
+#   except ValueError:
+#     return None
+#   else:
+#     return(a)
+  
+# get_integer()
+
+
+
+sa=2
+print(sa)
