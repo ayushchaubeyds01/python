@@ -5667,5 +5667,142 @@ A B C D E F G H I
 
 
 
-sa=2
-print(sa)
+# def get_integer():
+#   try:
+#     x=int(input("enter :"))
+    
+#   except ValueError:
+#     return None
+#   else:
+#     return x
+# print(get_integer())
+
+
+
+# def divide_numbers():
+#   try:
+#     x=int(input("enter x:"))
+#     y=int(input("enter y:"))
+#     result=x/y
+#   except ValueError :
+#     return "invalid input"
+#   except ZeroDivisionError:
+#     return "cannot divide by zero"
+#   else:
+#     return result
+# print(divide_numbers())
+
+
+
+# def safe_list_access():
+#   numbers = [10, 20, 30, 40, 50]
+#   try:
+#     index=int(input("enter index"))
+#     result= numbers[index]
+#   except ValueError:
+#     return "Invalid index input"
+#   except IndexError:
+#     return "Index out of range"
+#   else:
+#     return result
+# print(safe_list_access())
+
+
+
+
+# def convert_integer():
+#   try:
+#     x=int(input("eenter x:"))
+#   except ValueError:
+#     return "Invalid integer"
+#   else:
+#     return x
+#   finally:
+#     print("Execution completed")
+# print(convert_integer())
+
+
+
+
+
+# def convert_integer():
+#   try:
+#     x=float(input("eenter x:"))
+#     result=x**2
+#   except ValueError:
+#     return "Invalid integer"
+#   else:
+#     return result
+#   finally:
+#     print("Execution completed")
+# print(convert_integer())
+
+
+
+# def get_student_marks():
+#   marks = {"Aman": 85, "Riya": 92, "Rahul": 78}
+#   try:
+#     name=input("enter name:")
+#     result=marks[name]
+#   except KeyError:
+#     return "Student not found"
+#   else:
+#     return result
+#   finally:
+#     print("Lookup attempted")
+# print(get_student_marks())
+  
+  
+  
+  
+  
+# def read_file():
+#   try:
+#     name=input("filename:")
+#     with open(name,"r") as file:
+#       result= file.readlines()
+#   except FileNotFoundError:
+#     return "File not found"
+#   else:
+#     return result
+#   finally:
+#     print("File operation attempted")
+# print(read_file())
+
+
+
+
+
+# def safe_divide_from_list():
+#   numbers = [100, 50, 25, 0, 10]
+#   try:
+#     index=int(input("enter index:"))
+#     result=100/(numbers[index])
+#   except ValueError:
+#     return "Invalid index input"
+#   except IndexError:
+#     return "Index out of range"
+#   except ZeroDivisionError:
+#     return "cannot divide by zero"
+#   else:
+#     return result
+# print(safe_divide_from_list())
+
+
+
+
+def calculator():
+  try:
+    x=float(input("enter x:"))
+    y=float(input("enter y:"))
+    res1=x+y
+    res2=x-y
+    res3=x*y
+    res4=x/y
+  except ValueError:
+    return "Invalid number"
+  except ZeroDivisionError:
+    return "Cannot divide by zero"
+  else:
+    return res1 and res2 and res3 and res4
+print(calculator())
