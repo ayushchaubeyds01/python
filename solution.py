@@ -5791,18 +5791,156 @@ A B C D E F G H I
 
 
 
-def calculator():
-  try:
-    x=float(input("enter x:"))
-    y=float(input("enter y:"))
-    res1=x+y
-    res2=x-y
-    res3=x*y
-    res4=x/y
-  except ValueError:
-    return "Invalid number"
-  except ZeroDivisionError:
-    return "Cannot divide by zero"
-  else:
-    return res1 and res2 and res3 and res4
-print(calculator())
+# def calculator():
+#   try:
+#     x=float(input("enter x:"))
+#     y=float(input("enter y:"))
+#     choice=input("Enter choice:")
+
+        
+#     if choice =="+":
+#        return x+y
+#     elif choice == "-":
+#         return x-y
+#     elif choice =="*":
+#         return x*y
+#     elif choice == "/":
+#         return x/y
+#     else:
+#         return("invalid oprator")
+#   except ValueError:
+#     return "Invalid number"
+#   except ZeroDivisionError:
+#     return "Cannot divide by zero"
+# print(calculator())
+
+
+
+
+# def validate_age():
+#   try:
+#     age=int(input("enter age:"))
+#     if age<=-1:
+#       return "Age cannot be negative"
+#     elif 0<=age<=120:
+#       return age
+#     else:
+#       return " age out of range"
+#   except ValueError:
+#     return "Invalid age"
+# print(validate_age())
+
+
+
+
+
+
+
+
+# def safe_integer_division():
+#   try:
+#     x=int(input("enter x:"))
+#     y=int(input("enter y:"))
+#     result=x//y
+#   except ValueError:
+#     return "Invalid integer"
+#   except ZeroDivisionError:
+#     return "Cannot divide by zero"
+#   else:
+#     return result
+# print(safe_integer_division())
+
+
+
+
+# def write_to_file():
+#   try:
+#     name=input("enter name:")
+#     text=input("enmter text:")
+#     with open (name,"w") as file:
+#       file.write(text)
+#   except OSError:
+#     return "File opration failed"
+#   else:
+#     return "File written successfully"
+#   finally:
+#     print("Write attempt completed")
+    
+# print(write_to_file())
+
+
+
+# import json
+# def parse_json():
+#   try:
+#     data=input("enter string:")
+#     result=json.loads(data)
+#     return result
+#   except json.JSONDecodeError:
+#     return " Invalid JSON"
+# print(parse_json())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# text=input("enter text:\n")
+# with open("notes.txt","a") as file:
+#   file.write(text)
+# with open("notes.txt","r") as file:
+#   for line in file:
+#     print(line)
+
+
+
+
+
+
+
+
+# with open("notes.txt","a") as file:
+#   file.write(f"maulana \n is \n good boy")
+
+# with open("notes.txt","r") as file :
+#     print(file.readlines())
+
+# with open("notes.txt","r") as file:
+#   for line in file:
+#     print(line.strip())
+
+# text=input("enter text:")
+# with open("notes.txt","a") as file:
+#   file.write(f"{text}\n")
+
+# name=input("Enter :")
+# age=input("Enter :")
+# with open("user.txt","a") as file:
+#   file.write(f"{name} is {age}")
+
+# count=0
+# with open("notes.txt","r") as file:
+#   for line in file:
+#     count+=1
+#   print(count)
+
+# try:
+#   with open("names.txt","r")as file:
+#     file.readlines()
+# except FileNotFoundError:
+#   print("hey try another name")
+# else:
+#   print(file)
+
+
+
+# string practice
