@@ -109,3 +109,41 @@
 #       print("anagram")
 
 
+
+
+
+
+
+
+# # First non-repeating character
+# s=input("enter s:").lower()
+# for ch in s:
+#     if s.count(ch)==1:
+#         print(ch)
+#         break
+#     else:
+#         print("no repeating character")
+
+
+
+
+
+
+
+# # Find the most frequent character
+# s=input("enter s:")
+# max_count=0
+# frequent=""
+# for i in s:
+#     if s.count(i)>max_count:
+#         max_count=s.count(i)
+#         frequent=i
+# if frequent:
+#     print("most frequent=",i)
+# else:
+#     print("not frequent")
+
+
+
+
+# Find the character with the second-highest frequency in a string.
