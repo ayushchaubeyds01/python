@@ -147,3 +147,43 @@
 
 
 # Find the character with the second-highest frequency in a string.
+
+
+# s = input("Enter string: ").lower()
+# max_count = 0
+# sec_max_count = 0
+# sec_most_freq = ""
+# for ch in s:
+#     freq = s.count(ch)
+#     if freq > max_count:
+#         sec_max_count = max_count
+#         max_count = freq
+#     elif max_count > freq > sec_max_count:
+#         sec_max_count = freq
+#         sec_most_freq = ch
+# if sec_max_count == 0:
+#         print("No second-highest frequency")
+# else:
+#     for ch in s:
+#         if s.count(ch) == sec_max_count:
+#             print(ch)
+#             break
+
+
+
+
+
+# # Remove Consecutive Duplicate Characters
+
+# s = input("Enter s:").lower()
+# result = ""
+# if len(s) > 0:
+#     result += s[0]
+#     for i in range(1, len(s)):
+#         if s[i] != s[i - 1]:
+#             result += s[i]
+# print(result)
+
+
+
+
