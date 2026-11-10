@@ -187,4 +187,54 @@
 
 
 
-print("a")
+# def main():
+#     student=get_student()
+#     print(f"{student['name']} from {student['house']}")
+# def get_student():
+#     student={}
+#     student['name']=input("enter name:")
+#     student['house']=input("enter house:")
+#     return student
+# main()
+
+
+
+# def main():
+#     student=get_student()
+#     print(f"{student['name']} from {student['house']}")
+# def get_student():
+#     name=input("enter name:")
+#     house=input("enter house")
+#     return {"name":name , "house":house}
+# main()
+
+
+# class Student:
+#     def __init__(self,name,house):
+#         self.name=name
+#         self.house=house
+# def main():
+#     student=get_student()
+#     print(f"{student.name} from {student.house}")
+# def get_student():
+#     name=input("name:")
+#     house=input("house:")
+#     student=Student(name,house)
+#     return student
+
+# main()
+
+
+
+# class Student:
+#     def __init__(self,name,house):
+#         self.name=name
+#         self.house=house
+# def main():
+#     student=get_student()
+#     print(f"{student.name} from {student.house}")
+# def get_student():
+#     name=input("enter name:")
+#     house=input("enter house:")
+#     return Student(name,house)
+# main()
